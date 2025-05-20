@@ -1,4 +1,4 @@
-cha/* ************************************************************************** */
+/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
@@ -20,7 +20,7 @@ char	*ft_strmapi(char const *s, char (*f)( unsigned int, char))
 	i = 0;
 	if (!s || !f)
 		return (NULL);
-	len = ft_strlen(s);
+	len = ft_strlen((char *)s);
 	result = malloc(sizeof(char) * (len + 1));
 	if (!result)
 		return (NULL);

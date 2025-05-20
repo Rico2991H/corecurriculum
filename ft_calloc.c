@@ -13,7 +13,7 @@
 
 void	*calloc(size_t nmemb, size_t size)
 {
-	int		i;
+	size_t		i;
 	void	*ptr; 
 
 	ptr = (int *)malloc(nmemb * size);

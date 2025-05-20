@@ -13,10 +13,10 @@
 
 size_t	strlcpy(char *dst, const char *src, size_t size)
 {
-	int		i;
+	size_t		i;
 	size_t	length;
-
 	i = 0;
+	length = ft_strlen((char *)src);
 	if (size == 0)
 	{
 		return (0);

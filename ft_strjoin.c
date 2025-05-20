@@ -9,7 +9,7 @@
 /*   Updated: 2025/05/14 10:41:29 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "stdlib.h"
+#include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -18,9 +18,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	i;
 	size_t	j;
 
-	j = ft_strlen(s1);
+	j = ft_strlen((char *)s1);
 	i = 0;
-	len = j + ft_strlen(s2);
+	len = j + ft_strlen((char *)s2);
 	ptr = (char *)malloc(sizeof(char) * (len + 1));
 	if (!ptr)
 		return (NULL);

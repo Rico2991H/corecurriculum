@@ -11,40 +11,37 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-int	minus_checker(int *i, const char *nptr)
+static int	minus_checker(int i, const char *nptr)
 {
 	int	sign;
 
 	sign = 1;
-	if (nptr[*i] == '-' || nptr[*i] == '+')
+	if (nptr[i] == '-' || nptr[i] == '+')
 	{
-		if (nptr[*i] == '-')
+		if (nptr[i] == '-')
 		{
 			sign = -1;
-			(*i)++;
 			return (sign);
 		}
-		(*i)++;
 	}
 	return (sign);
 }
 
-int	atoi(const char *nptr)
+int	ft_atoi(const char *nptr)
 {
 	int	number;
 	int	i;
-	int	pm_counter;
 	int	sign;
 
 	i = 0;
 	number = 0;
-	pm_counter = 0;
 	sign = 1;
 	while ((nptr[i] == 32) || (nptr[i] >= 9 && nptr[i] <= 13))
 	{
 		i++;
 	}
-	sign = minus_checker(&i, nptr);
+	sign = minus_checker(i, nptr);
+	i++;
 	while (nptr[i] >= '0' && nptr[i] <= '9')
 	{
 		number = number * 10 + nptr[i] - '0';
@@ -53,10 +50,9 @@ int	atoi(const char *nptr)
 	number = number * sign;
 	return (number);
 }
-/*
-int	main(void)
+/*int	main(void)
 {
 	const char nbr[9] = "-3534535";
 	int	result = atoi(nbr);
 	printf("%d", result);
-}*/	
+}*/

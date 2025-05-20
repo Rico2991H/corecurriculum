@@ -22,20 +22,19 @@ void	*memmove(void *dest, const void *src, size_t n)
 	s = (unsigned char *)src;
 	if (s < d && d < s + n)
 	{
-		i = n - 1;
-		while (i >= 0)
+		i = n;
+		while (i > 0)
+		{
+			i--;
+			d[i] = s[i];
+		}
+	}
+	else
+		
+		while (i < n)
 		{
 			d[i] = s[i];
-			i--;
+			i++;
 		}
-		else
-		{
-			while (i < n)
-			{
-				d[i] = s[i];
-				i++;
-			}
-		}
-		return (dest);
-	}
+	return (dest);
 }

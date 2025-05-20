@@ -23,4 +23,5 @@ void	*memset(void *s, int c, size_t n)
 		ptr[i] = c;
 		i++;
 	}
+	return (s);
 }
