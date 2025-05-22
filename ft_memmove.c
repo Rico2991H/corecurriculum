@@ -11,30 +11,39 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-void	*memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	size_t			i;
-	unsigned char	*d;
-	unsigned char	*s;
 
 	i = 0;
-	d = (unsigned char *)dest;
-	s = (unsigned char *)src;
-	if (s < d && d < s + n)
+	if (!dest || !src)
+		return (NULL);
+	if (dest == src && n == 0)
+		return (NULL);
+	if (src < dest)
 	{
 		i = n;
 		while (i > 0)
 		{
 			i--;
-			d[i] = s[i];
+			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
 		}
 	}
 	else
-		
+	{
 		while (i < n)
 		{
-			d[i] = s[i];
+			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
 			i++;
 		}
+	}
 	return (dest);
 }
+/*#include <stdio.h>
+int	main(void)
+{
+	char	str[] = "Hello world how are you?";
+	void	*result = memmove(&str[6], &str[0], 5);
+	char	*casted = (char *)result;
+	printf("%s", casted);
+}*/

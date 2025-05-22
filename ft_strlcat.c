@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t	strlcat(char *dst, const char *src, size_t size)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	len_dst;
@@ -19,23 +19,28 @@ size_t	strlcat(char *dst, const char *src, size_t size)
 
 	i = 0;
 	len_src = ft_strlen((char *)src);
-	if (size == 0)
-	{
-		return (0);
-	}
 	len_dst = ft_strlen(dst);
+	if (len_dst < size - 1 && size > 0)
+	{
+		while (src[i] != '\0' && (len_dst + i) < (size -1))
+		{
+			dst[len_dst + i] = src[i];
+			i++;
+		}
+		dst[len_dst + i] = 0;
+	}
 	if (len_dst >= size)
-	{
-		return (len_src + size);
-	}
-	while (src[i] != '\0' && (len_dst + i) < (size -1))
-	{
-		dst[len_dst + i] = src[i];
-		i++;
-	}
-	if (len_dst + i < size)
-	{
-		dst[len_dst + i] = '\0';
-	}
+		len_dst = size;
 	return (len_dst + len_src);
 }
+/*#include <stdio.h>
+int	main()
+{
+	char dst[50] = "Hello world";  // Writable buffer
+	const char *src = " how are you?";
+	size_t size = sizeof(dst);
+	size_t	result = ft_strlcat(dst,src, 50);
+	size_t	casted = (size_t )result;
+	printf("Resulting string: %s\n", dst);
+	printf("%zu", casted);
+}*/

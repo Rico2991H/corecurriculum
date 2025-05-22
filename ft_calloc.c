@@ -11,19 +11,17 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-void	*calloc(size_t nmemb, size_t size)
+void	*ft_calloc(size_t nmemb, size_t size)
 {
-	size_t		i;
 	void	*ptr; 
 
-	ptr = (int *)malloc(nmemb * size);
-	i = 0;
+	if (nmemb == 0 || size == 0)
+		return (malloc(1));
+	if (nmemb > 2147483647 / size)
+		return (NULL);
+	ptr = malloc(nmemb * size);
 	if (!ptr)
 		return (NULL);
-	while (i < (nmemb * size))
-	{
-		((unsigned char *)ptr)[i] = 0;
-		i++;
-	}
+	ft_bzero(ptr, nmemb * size);
 	return (ptr);
 }

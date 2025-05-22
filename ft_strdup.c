@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "stdlib.h"
 
-char	*strdup(const char *s)
+char	*ft_strdup(const char *s)
 {
 	int		i;
 	int		len;
@@ -34,3 +34,9 @@ char	*strdup(const char *s)
 	ptr[i] = '\0';
 	return (ptr);
 }
+/*#include <stdio.h>
+int	main(void)
+{
+	char *ptr = ft_strdup("Hi my name is, tjike tjike...");
+	printf("%s", ptr);
+}*/

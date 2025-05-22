@@ -30,3 +30,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*#include <stdio.h>
+int main()
+{
+	int i = 0;
+	i = ft_memcmp("hello","hellp", 5);
+	printf("%d\n", i);
+	i = ft_memcmp("hello","hello", 5);
+	printf("%d\n", i);
+	i = ft_memcmp("hello","hel are your", 8);
+	printf("%d\n", i);
+}*/

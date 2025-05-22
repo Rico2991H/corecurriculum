@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t	in_set(char const c, char const *set)
+static size_t	in_set(char const c, char const *set)
 {
 	size_t	j;
 

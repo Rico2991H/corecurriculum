@@ -39,3 +39,11 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ptr[j] = '\0';
 	return (ptr);
 }
+/*#include <stdio.h>
+int	main()
+{
+	char	str[] = "Hello world how are you?";
+	void	*result = ft_strjoin("Hello world", "how are you?");
+	char	*casted = (char *)result;
+	printf("%s", casted);
+}*/

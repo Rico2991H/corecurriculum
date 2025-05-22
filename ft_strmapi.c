@@ -32,3 +32,32 @@ char	*ft_strmapi(char const *s, char (*f)( unsigned int, char))
 	result[i] = '\0';
 	return (result);
 }
+/*
+char	map_index_case(unsigned int i, char c)
+{
+	if (i % 2 == 0)
+		return (char)toupper(c);
+	else
+		return (char)tolower(c);
+}
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+int	main(void)
+{
+	char const *original = "hElLo WoRlD!";
+	char *mapped = ft_strmapi(original, map_index_case);
+
+	if (mapped)
+	{
+		printf("Original: %s\n", original);
+		printf("Mapped:   %s\n", mapped);
+		free(mapped);  // Don't forget to free the returned string!
+	}
+	else
+	{
+		printf("ft_strmapi returned NULL\n");
+	}
+
+	return 0;
+}*/

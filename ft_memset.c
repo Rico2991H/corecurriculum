@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-void	*memset(void *s, int c, size_t n)
+void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t			i;
 	unsigned char	*ptr;
@@ -25,3 +25,11 @@ void	*memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+/*#include <stdio.h>
+int	main()
+{
+	char	str[] = "Hello world how are you?";
+	void	*result = ft_memset(&str, 'y', 4);
+	char	*casted = (char *)result;
+	printf("%s", casted);
+}*/

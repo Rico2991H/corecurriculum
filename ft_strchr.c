@@ -20,9 +20,17 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while (s[i] != '\0')
 	{
-                if (s[i] == ch)
-                        return ((char *)&s[i]);
+		if (s[i] == ch)
+			return ((char *)&s[i]);
 		i++;
 	}
+	if (s[i] == ch)
+		return ((char *)&s[i]);
 	return (0);
 }
+/*#include <stdio.h>
+int	main(void)
+{
+	char *ptr = ft_strchr("Hi my name is, tjike tjike...", 't');
+	printf("%s", ptr);
+}*/
