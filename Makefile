@@ -12,7 +12,7 @@
 
 NAME = libft.a
 
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 LIB_SRC = ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft_split.c \
@@ -29,6 +29,9 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
+	
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@	
 	
 clean:
 	rm -f $(OBJ)

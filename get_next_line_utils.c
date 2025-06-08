@@ -1,0 +1,114 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rhoogend <rhoogend@student.42berlin.d      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/30 13:20:59 by rhoogend          #+#    #+#             */
+/*   Updated: 2025/05/30 13:21:16 by rhoogend         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+#include "get_next_line.h"
+
+void	remove_list(t_list **list)
+{
+	int		i;
+	t_list	*node_to_del;
+
+	while (*list)
+	{
+		i = 0;
+		node_to_del = *list;
+		*list = (*list)-> next;
+		while (node_to_del-> str_buf[i])
+			node_to_del -> str_buf[i++] = '\0';
+		free(node_to_del->str_buf);
+		free(node_to_del);
+	}
+	*list = NULL;
+}
+
+int	check_n(t_list **list, int *i)
+{
+	t_list	*lastnode;
+	if (!list || !*list || !(*list)->str_buf)
+		return (0);
+	lastnode = *list;
+	while (lastnode -> next != NULL)
+	{
+		lastnode = lastnode -> next;
+	}
+	while (lastnode->str_buf[*i])
+	{
+		if (lastnode->str_buf[*i] == '\n')
+		{
+			(*i)++;
+			return (1);
+		}
+		(*i)++;
+	}
+	return (0);
+}
+
+int	newline(char *buf)
+{
+	int	i;
+
+	i = 0;
+	while (buf[i])
+	{
+		if (buf[i] == '\n')
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
+int	len_line(t_list *list)
+{
+	int		str_len;
+	int		i;
+	t_list	*temp;
+
+	temp = list;
+	str_len = 0;
+	while (temp != NULL)
+	{
+		i = 0;
+		while (temp-> str_buf[i])
+		{
+			str_len++;
+			if (temp->str_buf[i] == '\n')
+				break ;
+			i++;
+		}
+		if (temp->str_buf[i] == '\n')
+			break ;
+		temp = temp->next;
+	}
+	return (str_len);
+}
+
+void	add_node(t_list **list, char *line)
+{
+	t_list	*new_list;
+	t_list	*lastnode;
+
+	new_list = malloc(sizeof(t_list));
+	if (!new_list)
+		return ;
+	new_list->str_buf = line;
+	new_list->next = NULL;
+	if (*list == NULL)
+		*list = new_list;
+	else
+	{
+		lastnode = *list;
+		while (lastnode -> next != NULL)
+		{
+			lastnode = lastnode -> next;
+		}
+		lastnode->next = new_list;
+	}
+}
