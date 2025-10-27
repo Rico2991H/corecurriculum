@@ -1,0 +1,51 @@
+Tokenization:
+
+Step 1: Create a struct
+include variable types
+Terminals:
+
+-Operators = &&, ||
+-Commands = characters
+-Group = ( )
+-Punctuations = -, ', ", 
+-Redidrectors = < << > >>
+-Stringliterals/words = characters
+
+
+command_line → pipeline ( "||" pipeline | "&&" pipeline )*
+pipeline     → command ( "|" command )*
+command      → assignment | simple_command | subshell
+assignment   → NAME "=" STRING
+simple_command → WORD (WORD)*
+subshell     → "(" command_line ")"
+redirection  → ("<" | ">" | "<<" | ">>") WORD
+
+command_line  → pipeline (("&&" | "||") pipeline)*
+pipeline      → command ("|" command)*
+command       → (assignment | simple_command | subshell) redirection*
+assignment    → NAME "=" STRING
+simple_command → WORD (WORD)*
+subshell      → "(" command_line ")"
+redirection   → ("<" | ">" | "<<" | ">>") WORD
+
+🧱 4. So the rule is
+Context	Can redirection appear here?	Example
+Before command	✅	>out cat file
+After command name	✅	cat >out file
+Between arguments	✅	cat file1 >out file2
+After all arguments	✅	cat file >out
+Between assignment and command	❌	VAR=value >out echo hi
+Between assignment words	❌	VAR=value >out OTHER=1 echo hi
+Inside a word	❌	e>filecho
+
+
+typedef struct s_expression
+{
+    char *operators
+    char *commands
+    char *group
+    char *punctuation
+    char *redirection
+    char *string
+       
+}   t_expression
