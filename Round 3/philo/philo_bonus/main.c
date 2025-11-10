@@ -6,167 +6,122 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 12:27:28 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/09/22 10:53:47 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:44:38 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
 
-static void	init_sim(t_philosopher *head, t_simulation *sim)
+void	child_proces(t_philosopher *philosopher, 
+		t_sems *semaphores, t_timer *clock)
 {
-	t_philosopher	*temp;
-
-	temp = head;
-	while (temp->next != head)
+	pthread_create(&clock->time, NULL, timer, philosopher);
+	while (1)
 	{
-		temp->pt_to_stop = sim;
-		temp = temp->next;
+		sem_wait(semaphores->tableforks);
+		sem_wait(semaphores->tableforks);
+		eat(philosopher, semaphores);
+		sem_post(semaphores->tableforks);
+		sem_post(semaphores->tableforks);
+		if (!check_enough(philosopher))
+		{
+			free(philosopher);
+			exit(0);
+		}
+		sleeping(philosopher, semaphores);
+		thinking(philosopher, semaphores);
 	}
-	if (temp->next == head)
-		temp->pt_to_stop = sim;
+	free(philosopher);
+	exit(1);
 }
 
-/*static void	init_clock(t_philosopher *head, t_timer *clock)
+void	free_all(t_sems *semaphores, t_timer *clock, int *pids)
 {
-	t_philosopher	*temp;
-
-	temp = head;
-	while (temp->next != head)
-	{
-		temp->clock = clock;
-		temp = temp->next;
-	}
-	if (temp->next == head)
-		temp->clock = clock;
-}*/
-
-
-void	*timer(void *head)
-{
-	struct timeval	t_current;
-	t_philosopher	*temp;
-	long			timestamp;
-	int				counter = 0;
-
-	temp = (t_philosopher *)head;
-	while (!temp->pt_to_stop->stop_simulation 
-		&& temp->pt_to_stop->enough_counter != 0)
-	{
-
-		usleep(temp->time_to_die / 2 * 1000);
-		gettimeofday(&t_current, NULL);
-		timestamp = (t_current.tv_sec * 1000L + t_current.tv_usec / 1000l);
-		check_for_death(temp, head, timestamp);
-		counter++;
-		if(counter == 4)
-			temp->pt_to_stop->stop_simulation = 1;
-		temp = (t_philosopher *)head;
-	}
-	return (NULL);
+	free(semaphores);
+	free(clock);
+	free(pids);
 }
 
-
-t_philosopher *retrieve_philosopher(int i, t_philosopher *socrates)
+void	waiting(int number, int *pids, t_sems *semaphores, t_timer *clock)
 {
-	t_philosopher *temp;
+	int	i;
+	int	j;
+	int	status;
 
-	temp = socrates;
-	while(temp->next != socrates)
+	i = 0;
+	j = 0;
+	while (i < number)
 	{
-		if ( i == temp->philosopher_nb)
-			return (temp);
-		temp = temp->next;
+		waitpid(-1, &status, 0);
+		if (WIFEXITED(status) && WEXITSTATUS(status) == 1)
+		{
+			while (j < number)
+			{
+				kill(pids[j], SIGTERM);
+				j++;
+			}
+		}
+		i++;
 	}
-	if (temp->next == socrates)
-	{
-		if ( i == temp->philosopher_nb)
-			return (temp);
-	}
-	return (socrates);
+	sem_close(semaphores->tableforks);
+	sem_close(semaphores->print);
+	sem_close(semaphores->stop);
+	free_all(semaphores, clock, pids);
 }
 
-
-static void	create_process(int number, t_simulation sim, t_philosopher *socrates)
+void	forking(int number, t_sems *semaphores, int argc, char **argv)
 {
-	t_timer			*clock;
-	sem_t			*tableforks;
-	int				pid;
 	int				*pids;
+	int				pid;
 	int				i;
 	t_philosopher	*philosopher;
-	
-	sim.stop_simulation = 0;
-	i = 1;
-	pids = malloc(sizeof(int) * number);
+	t_timer			*clock;
+
+	i = -1;
 	clock = malloc(sizeof(t_timer));
-	sem_unlink("/sem_1");
-	tableforks = sem_open("/sem_1", O_CREAT, 0777, number);
-	pid = 1;
-	init_sim(socrates, &sim);
-	while (i <= number)
+	pids = malloc(sizeof(int) * number);
+	while (++i < number)
 	{
 		pid = fork();
 		if (pid == -1)
 		{
-		printf("fork unssucesfull");
-		exit(1);
+			printf("fork unssucesfull");
+			exit(1);
 		}
 		if (pid == 0)
 		{
-			philosopher = retrieve_philosopher(i, socrates);
-			break;
+			philosopher = create_philosopher(i + 1, argv, argc, semaphores);
+			child_proces(philosopher, semaphores, clock);
 		}
 		pids[i] = pid;
-		i++;
 	}
-	if (pid == 0)
-	{
-		//while (!philosopher->pt_to_stop->stop_simulation 
-		//&& philosopher->pt_to_stop->enough_counter != 0)
-		//{
-			sem_wait(tableforks);
-			sem_wait(tableforks);
-			eat(philosopher);
-			sem_post(tableforks);
-			sem_post(tableforks);
-			sleeping(philosopher);
-			thinking(philosopher);
-		//}
-		free_philosopher(socrates);
-		exit(0);
-	}
-	else
-	{
-	pthread_create(&clock->time, NULL, timer, socrates);
-	int	status;
-	i = 0;
-	while (i < number)
-	{
-		waitpid(pids[i], &status, 0);
-		i++;
-	}
-	sem_close(tableforks);
-	}
+	waiting(number, pids, semaphores, clock);
+}
+
+static void	create_process(int number, int argc, char **argv)
+{
+	t_sems			*semaphores;
+
+	semaphores = malloc(sizeof (t_sems));
+	sem_unlink("/sem_1");
+	sem_unlink("/print");
+	sem_unlink("/stop");
+	semaphores->tableforks = sem_open("/sem_1", O_CREAT, 0777, number);
+	semaphores->print = sem_open("/print", O_CREAT, 0777, 1);
+	semaphores->stop = sem_open("/stop", O_CREAT, 0777, 1);
+	forking(number, semaphores, argc, argv);
 }
 
 int	main(int argc, char **argv)
 {
 	int				number;
-	t_philosopher	*socrates;
-	t_simulation	sim;
 
-	sim.stop_simulation = 0;
-	socrates = NULL;
 	number = 0;
 	if (argc == 5 || argc == 6)
 	{
 		number = ft_atoi(argv[1]);
 		if (number > 1)
-		{
-			if (!gather_philosophers(&socrates, number, argv, argc))
-				return (0);
-			create_process(number, sim, socrates);
-		}
+			create_process(number, argc, argv);
 	}
 	return (0);
 }

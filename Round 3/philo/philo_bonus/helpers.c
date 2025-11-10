@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 17:07:27 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/09/12 11:36:54 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/10/30 10:11:08 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,4 +53,26 @@ int	ft_atoi(const char *nptr)
 		}
 	}
 	return ((int)number);
+}
+
+t_philosopher	*create_philosopher(int nb, char **argv, 
+			int argc, t_sems *semaphores)
+{
+	t_philosopher	*new_philosopher;
+
+	new_philosopher = malloc(sizeof(t_philosopher));
+	if (!new_philosopher)
+		return (NULL);
+	new_philosopher->last_eat = 0;
+	new_philosopher->philosopher_nb = nb;
+	new_philosopher->time_to_die = (long)ft_atoi(argv[2]);
+	new_philosopher->time_to_eat = ft_atoi(argv[3]);
+	new_philosopher->time_to_sleep = ft_atoi(argv[4]);
+	new_philosopher->pt_to_sem = semaphores;
+	if (argc == 6)
+		new_philosopher->number_of_times = ft_atoi(argv[5]);
+	else
+		new_philosopher->number_of_times = -1;
+	new_philosopher->next = NULL;
+	return (new_philosopher);
 }

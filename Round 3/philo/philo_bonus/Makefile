@@ -6,7 +6,7 @@
 #    By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/26 09:15:00 by rhoogend          #+#    #+#              #
-#    Updated: 2025/09/19 15:43:20 by rhoogend         ###   ########.fr        #
+#    Updated: 2025/10/30 09:47:45 by rhoogend         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 
-SRC = main.c making_philosophers.c helpers.c checkers.c eatsleepraverepeat.c
+SRC = main.c helpers.c checkers.c eatsleepraverepeat.c
 OBJDIR = objects
 OBJ = $(addprefix $(OBJDIR)/,$(SRC:.c=.o))
 
