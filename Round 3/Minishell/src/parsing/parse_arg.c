@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parse_arg.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmungunt <dmungunt@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/05 13:36:02 by dmungunt          #+#    #+#             */
-/*   Updated: 2025/11/05 13:36:23 by dmungunt         ###   ########.fr       */
+/*   Updated: 2025/11/18 13:20:58 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@ void	add_arg_node(t_arg **arg, t_token *token_list)
 		exit(1);
 	new_arg->arg = token_list->str;
 	new_arg->d_quote = token_list->d_quote;
-	new_arg->s_quote = token_list->s_quote;	
+	new_arg->s_quote = token_list->s_quote;
+	//new_arg->to_remove = 0;
 	new_arg->next = NULL;
 	if(*arg == NULL)
 	{

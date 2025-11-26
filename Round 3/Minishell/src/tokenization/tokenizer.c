@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tokenizer.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dmungunt <dmungunt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 12:28:58 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/10/24 14:06:17 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/06 13:52:05 by dmungunt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,12 +53,16 @@ void	add_single_comma(char *arg, int *j, t_token *tokens)
 void	add_pipes_and_or(char *arg, int *j, t_token *tokens)
 {
 	int i = *j;
+
 	while(arg[*j] == 124)
 	{
 		(*j)++;
 	}
 	tokens->str = ft_substr(&arg[i], 0, (*j - i));
-	tokens->token_type = OPERATORS;
+	if ((*j - i) == 1)
+		tokens->token_type = PIPE;
+	else
+		tokens->token_type = OPERATORS;
 	printf("%s\n", tokens->str);
 }
 void	add_andoperators(char *arg, int *j, t_token *tokens)

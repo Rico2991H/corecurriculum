@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   recusion.c                                         :+:      :+:    :+:   */
+/*   recursion.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmungunt <dmungunt@student.42berlin.d      +#+  +:+       +#+        */
+/*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/05 13:29:23 by dmungunt          #+#    #+#             */
-/*   Updated: 2025/11/05 13:29:37 by dmungunt         ###   ########.fr       */
+/*   Updated: 2025/11/26 12:12:17 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ t_expression	*recursion(t_token **token_list, char *path)
 
 	tmp_list = *token_list;
 	operator = NULL;
-	if (!tmp_list || strncmp(")", tmp_list->str, 1) == 0)
+	if (!tmp_list || ft_strncmp(")", tmp_list->str, 1) == 0)
 	{
-		if (strncmp(")", tmp_list->str, 1) == 0)
+		if (ft_strncmp(")", tmp_list->str, 1) == 0)
 		{
 			printf("finds ')'\n");
 		}
@@ -31,10 +31,9 @@ t_expression	*recursion(t_token **token_list, char *path)
 	left = val_pars(&tmp_list, path);
 	if (!tmp_list)
 		return (left);
-	if (tmp_list->token_type == OPERATORS)
+	if (tmp_list->token_type == OPERATORS || tmp_list->token_type == PIPE)
 	{
 		tmp_list = pars_operator(tmp_list, &operator);
-		//printf("operator parsed successfully\n");
 		operator->left = left;
 		operator->right = recursion(&tmp_list, path);
 		printf("Recursion Ended\n");
@@ -63,4 +62,34 @@ t_token	*val_pars_recursion(t_expression **cmdparse, t_token *token_list, char *
 		}
 	}
 	return (result);
+}
+
+t_expression	*recursion2(t_token **token_list, char *path)
+{
+	t_expression	*left;
+	t_expression	*operator;
+	t_token	*tmp_list;
+
+	tmp_list = *token_list;
+	operator = NULL;
+	if (!tmp_list || ft_strncmp(")", tmp_list->str, 1) == 0)
+	{
+		if (ft_strncmp(")", tmp_list->str, 1) == 0)
+		{
+			printf("finds ')'\n");
+		}
+		return (NULL);
+	}
+	left = val_pars(&tmp_list, path);
+	if (!tmp_list)
+		return (left);
+	if (tmp_list->token_type == OPERATORS)
+	{
+		tmp_list = pars_operator(tmp_list, &operator);
+		operator->left = left;
+		operator->right = recursion2(&tmp_list, path);
+		printf("Recursion Ended\n");
+	}
+	*token_list = tmp_list;
+	return (operator);
 }

@@ -6,9 +6,10 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 10:23:36 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/11/10 11:45:55 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/26 16:07:44 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #ifndef MINISHELL_H
 # define MINISHELL_H
@@ -22,6 +23,16 @@
 # include <unistd.h>
 # include <signal.h>
 # include "../Libft/libft.h"
+# include <sys/types.h>
+# include <dirent.h>
+# include <fcntl.h>
+
+# ifndef GLOBAL_H
+# define GLOBAL_H
+
+extern int global_var;
+
+# endif
 
 typedef enum
 {
@@ -29,6 +40,7 @@ typedef enum
 	PARENT,
 	REDIRECT,
 	STRING,
+	PIPE,
 }	token_enum;
 
 typedef enum e_type
@@ -66,6 +78,28 @@ typedef struct s_token
 	char	*str;
 }   t_token;*/
 
+typedef struct s_path
+{
+	char	**cmd_paths;
+	char	*the_path;
+	char	*path;
+}	t_path;
+
+typedef struct s_pipex
+{
+	char	**cmd1;
+	char	**cmd2;
+	char	*path1;
+	char	*path2;
+}	t_pipex;
+
+typedef struct s_env
+{
+	char	*before_equal;
+	char	*after_equal;
+	struct	s_env	*next;
+}	t_env;
+
 typedef struct s_token
 {
 	token_enum token_type;
@@ -83,6 +117,12 @@ typedef struct s_variables
 	struct s_variables	*next;
 }	t_variables;
 
+typedef struct s_files
+{
+	char	*filename;
+	struct 	s_files *next;
+}	t_files;
+
 typedef struct s_redirection
 {
 	redir_enum Type;
@@ -90,6 +130,7 @@ typedef struct s_redirection
 	char	*name;
 	char	*hdinput;
 	int		s_quote;
+	char	*path;
 	struct	s_redirection	*next;	
 } t_redirection;
 
@@ -98,13 +139,17 @@ typedef struct s_arguments
 	char	*arg;
 	int		s_quote;
 	int		d_quote;
+	int		to_remove;
 	struct s_arguments *next;
 } t_arg;
+
 typedef	struct s_expression
 {
 	NodeType Type;
 	t_variables	*assignment;
 	t_redirection *red;
+	int		fd_in;
+	int		fd_out;
 	char *value;
 	char	**split_paths;
 	t_arg *args;
@@ -124,13 +169,11 @@ typedef struct s_heredoc
 int 			token_counter(char *arg);
 void 			tokenizer(t_token *token, char *arg);
 int				isspecial(char c); 
-void    		alloc_array(char *array, int i);
 void			history(char *input);
 void			signal_set(void);
 t_expression	*val_pars(t_token **token_list, char *path);
 t_expression	*recursion(t_token **token_list, char *path);
 t_token			*val_pars_recursion(t_expression **result, t_token *token_list, char *path);
-//void	recursion_two(t_expression **result, t_token **token_list, char *path);
 t_token			*subshell(t_expression **child, t_token *token_list, char *path);
 void 			print_tokenlist(t_token *token_list);
 t_token			*pars_operator(t_token *token_list, t_expression **cmdparse);
@@ -141,10 +184,26 @@ t_redirection 	*extr_pars_red(t_token *token_list);
 void			assign_red(t_token *token_list, t_redirection **current);
 t_redirection	*new_node_red(t_redirection **node);
 t_token			*parse_arg(t_token *token_list, t_expression **cmd_parse);
+//t_token			*parse_pipe(t_token *token_list, t_expression **cmdparse);
 void			create_assign(t_token *token_list, t_variables **assignment);
 int				check_for_operator(char *str);
 int				find_equals(t_token *token);
 char    		*heredocinput(char *delimiter);
-void    		expansion_checker(t_expression *cmd_parse);
-
+void    		expansion_checker(t_expression *cmd_parse, t_variables *assignments);
+void			extract_assignments(t_expression *cmd_parse, t_variables **assignments);
+int				priority(t_expression *cmdparse, t_env **envp, t_variables **assignments, char **r_envp);
+void			extractor(t_expression *cmd_parse, t_variables **assignment);
+t_files *		retrieve_files();
+void			check_for_ast(t_expression *cmd_parse);
+void			remove_ast(t_arg **arg_trav);
+t_env			*copy_env(char **envp);
+t_env			*env_last(t_env *lst);
+t_env			*init_env(char *str);
+void			append_env_list(t_env **result, t_env *new);
+int				built_in(char *value);
+t_files *		retrieve_files();
+void			check_for_ast(t_expression *cmd_parse);
+void			remove_ast(t_arg **arg_trav);
+void			check_for_redirect(t_expression *parse_cmds);
+void			reset_fd(t_expression *parse_cmds);
 #endif

@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 14:32:06 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/10/08 14:55:55 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/24 11:08:26 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -141,7 +141,7 @@ int	isspecial(char c)
 		c == ')' || c == '(' || c == '&' ||
 		c == '|' || c == '\'' || c == '"');
 }
-
+/*token_counter functions count the amount of tokens*/
 int	token_counter(char *arg)
 {
 	int		i = 0;

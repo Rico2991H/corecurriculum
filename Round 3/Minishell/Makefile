@@ -3,12 +3,15 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dmungunt <dmungunt@student.42.fr>          +#+  +:+       +#+         #
+#    By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/05/21 11:52:23 by rhoogend          #+#    #+#              #
-#    Updated: 2025/11/05 13:58:52 by dmungunt         ###   ########.fr        #
+#    Created: 2025/11/19 12:17:18 by dmungunt          #+#    #+#              #
+#    Updated: 2025/11/25 11:49:43 by rhoogend         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+# **************************************************************************** #
+
 
 NAME = minishell
 
@@ -22,16 +25,21 @@ SRC_DIR = src
 TKN_DIR = $(SRC_DIR)/tokenization
 PRS_DIR = $(SRC_DIR)/parsing
 EXP_DIR = $(SRC_DIR)/expansion
+EXC_DIR = $(SRC_DIR)/execution
+RED_DIR = $(SRC_DIR)/redirection
 INC_DIR = includes
 
 SRC = \
 	$(SRC_DIR)/main.c \
 	$(SRC_DIR)/history.c \
 	$(SRC_DIR)/signal.c \
+	$(SRC_DIR)/copy_env.c \
 	$(TKN_DIR)/tokencounter.c \
 	$(TKN_DIR)/tokenizer.c \
 	$(PRS_DIR)/parsing.c $(PRS_DIR)/pars_red.c $(PRS_DIR)/parse_arg.c $(PRS_DIR)/parse_assign.c $(PRS_DIR)/parse_cmd.c $(PRS_DIR)/parse_op.c $(PRS_DIR)/recursion.c \
-	$(EXP_DIR)/expansion.c
+	$(EXP_DIR)/expansion.c $(EXP_DIR)/extract_assignments.c $(EXP_DIR)/ast_expansion.c \
+	$(EXC_DIR)/execute.c \
+	$(RED_DIR)/check_for_red.c \
 	
 OBJ = $(SRC:.c=.o)
 

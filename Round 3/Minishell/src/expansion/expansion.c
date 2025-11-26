@@ -6,28 +6,32 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 13:39:23 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/11/10 11:47:31 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/24 11:07:47 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minishell.h"
+# include "minishell.h"
 
-void	traverse_arguments(t_expression *cmd_parse)
+void	traverse_arguments(t_expression *cmd_parse, t_variables *assignments)
 {
 	t_arg   *arg_trav;
 	t_variables *ass_trav;
-
-	ass_trav = cmd_parse->assignment;
+	
+	ass_trav = assignments;
 	arg_trav = cmd_parse->args;
 	while(arg_trav)
 	{
 		if(arg_trav->arg[0] == '$' && arg_trav->s_quote == 0)
 		{
-			if (!ft_strncmp(ass_trav->name,
-				&arg_trav->arg[1], ft_strlen(ass_trav->name)))
+			while(ass_trav)
 			{
-				arg_trav->arg = ass_trav->value;
+				if (!ft_strncmp(ass_trav->name, &arg_trav->arg[1], ft_strlen(assignments->name)))
+				{
+					arg_trav->arg = ass_trav->value;
+				}
+				ass_trav = ass_trav->next;
 			}
+			ass_trav = assignments;
 		}
 		arg_trav = arg_trav->next;
 	}
@@ -79,16 +83,18 @@ void	replace_hdinput(t_redirection *red_trav, t_variables *ass_trav, int i)
 }
 
 
-void	traverse_redirection(t_expression *cmd_parse)
+void	traverse_redirection(t_expression *cmd_parse, t_variables *assignments)
 {
 	t_redirection	*red_trav;
 	t_variables		*ass_trav;
+	//(void)assignments;
 	int				i;
 	
 	i = 0;
 	red_trav = cmd_parse->red;
-	ass_trav = cmd_parse->assignment;
-	
+	//ass_trav = cmd_parse->assignment;
+	ass_trav = assignments;
+	printf("in trav redirection\n");
 	while(red_trav)
 	{
 		if(red_trav->Type == HEREDOC)
@@ -97,49 +103,34 @@ void	traverse_redirection(t_expression *cmd_parse)
 			{
 				if(red_trav->hdinput[i] == '$' && red_trav->s_quote == 0)
 				{
+					printf("going in replace hdinput\n");
 					replace_hdinput(red_trav, ass_trav, i);
 					i = -1;
 				}
 				i++;
 			}
 		}
-		printf("hdinput = %s\n", red_trav->hdinput);
+		printf("got out safe\n");
+		//printf("hdinput = %s\n", red_trav->hdinput);
 		red_trav = red_trav->next;
 	}
 }
 
-void    compare_words(t_expression *cmd_parse)
+void    compare_words(t_expression *cmd_parse, t_variables *assignments)
 {
-	traverse_arguments(cmd_parse);
-	traverse_redirection(cmd_parse);
+	traverse_arguments(cmd_parse, assignments);
+	check_for_ast(cmd_parse);
+	remove_ast(&cmd_parse->args);
+	traverse_redirection(cmd_parse, assignments);
 }
 
-void    expansion_checker(t_expression *cmd_parse)
+void    expansion_checker(t_expression *cmd_parse, t_variables *assignments)
 {
-	if(cmd_parse == NULL) // must set last node to NULL in earlier recursive function.
+	if(cmd_parse == NULL)
 		return;
 	if (cmd_parse->Type == NODE_COMMAND)
-	{
-		compare_words(cmd_parse);
-		expansion_checker(cmd_parse->left);
-		expansion_checker(cmd_parse->right);
-	}
-	if (cmd_parse->Type == NODE_ASSIGNMENT)
-		return;
-	if (cmd_parse->Type == NODE_AND)
-	{
-		expansion_checker(cmd_parse->left);
-		expansion_checker(cmd_parse->right);
-	}
-	if (cmd_parse->Type == NODE_OR)
-	{
-		expansion_checker(cmd_parse->left);
-		expansion_checker(cmd_parse->right);
-	}
-	if (cmd_parse->Type == NODE_PIPE)
-	{
-		expansion_checker(cmd_parse->left);
-		expansion_checker(cmd_parse->right);
-	}
+		compare_words(cmd_parse, assignments);
+	expansion_checker(cmd_parse->left, assignments);
+	expansion_checker(cmd_parse->right, assignments);
 }
 

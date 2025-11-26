@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 16:07:06 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/11/10 11:42:34 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/25 11:50:23 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,24 @@ void print_tokenlist(t_token *token_list)
 	}
 }
 
+t_expression	*parse_pipe(t_token **token_list, t_expression *node, char *path)
+{
+	t_expression	*pipe;
+	t_expression	*right;
+
+	if (!(*token_list) || (*token_list)->token_type != PIPE)
+		return (node);
+	
+	*token_list = (*token_list)->next;
+	right = val_pars(token_list, path);
+	pipe = malloc(sizeof(t_expression));
+	if (!pipe)
+		exit(1);
+	pipe->left = node;
+	pipe->right = right;
+	return(pipe);
+}
+
 t_expression	*val_pars(t_token **token_list, char *path)
 {
 	t_expression	*cmdparse;
@@ -43,13 +61,13 @@ t_expression	*val_pars(t_token **token_list, char *path)
 
 	assignment = NULL;
 	cmdparse = malloc(sizeof(t_expression));
-	cmdparse->left = NULL;
-	cmdparse->right = NULL;
 	if (!cmdparse)
 		exit(1);
+	cmdparse->left = NULL;
+	cmdparse->right = NULL;
 	cmdparse->red = extr_pars_red(*token_list);
 	//printf("token at the start: %s\n", (*token_list)->str);
-
+	
 	(*token_list) = parse_assign(*token_list, &assignment);
 	//printf("token advanced after parse_assign: %s\n", (*token_list)->str);
 
@@ -62,6 +80,12 @@ t_expression	*val_pars(t_token **token_list, char *path)
 	(*token_list) = val_pars_recursion(&cmdparse, *token_list, path);
 	//printf("token advanced after parse_recursion: %s\n", (*token_list)->str);
 
+	if ((*token_list)->token_type == PIPE)
+	{
+		cmdparse = parse_pipe(token_list, cmdparse, path);
+	}
+
+	printf("cmdparse type = %s\n", cmdparse->value);
 	return (cmdparse);
 }
 

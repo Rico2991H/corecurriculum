@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/05 13:31:34 by dmungunt          #+#    #+#             */
-/*   Updated: 2025/11/10 11:46:24 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/24 09:53:18 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ t_redirection	*new_node_red(t_redirection **node)
 		new_node->name = NULL;
 		new_node->arrow = NULL;
 		new_node->next = NULL;
+		new_node->path = NULL;
 		if (*node == NULL)
 			return(new_node);
 		else

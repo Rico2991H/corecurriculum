@@ -1,5 +1,9 @@
 {
-    "files.associations": {
-        "minishell.h": "c"
-    }
+	"files.associations": {
+		"minishell.h": "c",
+		"types.h": "c",
+		"algorithm": "c",
+		"memory": "c",
+		"numeric": "c"
+	}
 }

@@ -1,14 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   strncmp.c                                          :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rhoogend <rhoogend@student.42berlin.d      +#+  +:+       +#+        */
+/*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 10:59:44 by rhoogend          #+#    #+#             */
-/*   Updated: 2025/05/13 10:59:49 by rhoogend         ###   ########.fr       */
+/*   Updated: 2025/11/26 12:14:33 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
