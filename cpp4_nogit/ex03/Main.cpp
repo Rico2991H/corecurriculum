@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 12:09:59 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/31 15:47:18 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:00:01 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 #include "ICharacter.hpp"
 #include "Character.hpp"
 #include "IMateriaSource.hpp"
+#include "MateriaSource.hpp"
 #include <string>
 #include <iostream>
 

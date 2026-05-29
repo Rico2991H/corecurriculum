@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 10:30:42 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/31 16:28:38 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/04/01 10:41:04 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,20 @@ AMateria&  AMateria::operator=(const AMateria& other)
 {
 	std::cout << "Copy assignment operator called\n";
 	if(this != &other)
+	{
 		this->type = other.type;
+	}
 	return (*this);
 }
 
 AMateria::~AMateria()
 {
-    std::cout << "Destructor called\n";
+    std::cout << "AMateria Destructor called\n";
 }
 
-void				AMateria::setType()
+void				AMateria::setType(std::string input)
 {
-	
+	type = input;
 }
 
 std::string const&	AMateria::getType() const { return (type); }

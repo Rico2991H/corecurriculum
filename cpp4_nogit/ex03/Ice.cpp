@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 10:42:41 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/31 16:20:37 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:13:29 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 
 Ice::Ice()
 {
+	this->setType("ice");
 	std::cout << "Ice Constructor called\n";
 }
 
@@ -37,7 +38,7 @@ Ice::~Ice()
 {
     std::cout << "Destructor called\n";
 }
-const AMateria*	Ice::clone() const
+AMateria*	Ice::clone() const
 {
 	AMateria *NewCure = new Ice();
 	std::cout << "Cloning ice \n";
@@ -45,5 +46,5 @@ const AMateria*	Ice::clone() const
 }
 void		Ice::use(ICharacter& target)
 {
-	(void)target;
+	std::cout << "Ice:" << "* shoots an ice bolt at " << target.getName() << "*\n";
 }

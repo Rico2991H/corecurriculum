@@ -5,6 +5,8 @@
 #include <iostream>
 #include "IMateriaSource.hpp"
 
+class AMateria;
+
 class MateriaSource : public IMateriaSource
 {
 	public:

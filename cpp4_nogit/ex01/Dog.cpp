@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/27 10:15:58 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/31 09:07:17 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/05/27 13:12:44 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,15 @@
 #include <string>
 #include <iostream>
 
-Dog::Dog() : Animal()
+Dog::Dog() : Animal(), dogBrain(new Brain())
 {
 	type = "Dog";
-	this->dogBrain = new Brain();
 	std::cout << "Dog Constructor called\n";
 }
 
-Dog::Dog(const Dog& other) : Animal(other)
+Dog::Dog(const Dog& other) : Animal(other), dogBrain(new Brain(*other.dogBrain))
 {
 	std::cout << "Dog Copy consturctor called\n";
-	this->dogBrain = new Brain(*other.dogBrain);
 }
 
 Dog& Dog::operator=(const Dog& other)
@@ -34,6 +32,7 @@ Dog& Dog::operator=(const Dog& other)
 	if(this != &other)
 	{
 		Animal::operator=(other);
+		delete this->dogBrain;
 		this->dogBrain = new Brain(*other.dogBrain);
 	}
 	return (*this);

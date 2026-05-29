@@ -39,6 +39,10 @@ ICharacter& ICharacter::operator=(const ICharacter& other)
 	std::cout << "Copy assignment operator called\n";
 	if(this != &other)
 	{
+		this->name = other.name;
+		for (int i = 0; i < other.InvAmount; i++)
+			this->inventory[i] = other.inventory[i];
+		this->InvAmount = other.InvAmount;
 	}
 	return (*this);
 }

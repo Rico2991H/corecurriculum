@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 13:07:47 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/31 17:32:16 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/04/01 13:57:33 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,11 @@ Character& Character::operator=(const Character& other)
 
 Character::~Character()
 {
+	for (int i = 0 ; i < 4 ; i++)
+	{
+		if(inventory[i])
+			delete inventory[i];
+	}
     std::cout << "Destructor called\n";
 }
 
@@ -50,16 +55,20 @@ std::string const&	Character::getName() const
 }
 void				Character::equip(AMateria* m)
 {
-	for ( int i = 0 ; i < 4 ; i++)
+	if (m == 0)
 	{
-		if (i == InvAmount)
-		{
-			inventory[i] = m;
-			std::cout << m->getType() << " Added to inventory \n";
-			return;
-		}
+		std::cout << "illegitimate object \n";
+		return;
 	}
-	std::cout << "Inventory is full \n";
+	if (InvAmount >= 4)
+	{
+		std::cout << "inventory is full \n";
+		return;
+	}
+	inventory[InvAmount] = m;
+	std::cout << m->getType() << " Added to inventory \n";
+	InvAmount++;
+	return;
 }
 void 				Character::unequip(int idx)
 {
@@ -76,15 +85,9 @@ void 				Character::unequip(int idx)
 }
 void				Character::use(int idx, ICharacter& target )
 {
-	for (int i = 0; i < 4; i++)
+	if (inventory[idx])
 	{
-		if (i == idx)
-		{
-			std::cout << name << " uses" << inventory[i]->getType();
-			if (inventory[i]->getType() == "ice")
-				std::cout << "*shoots an ice bolt at" << target.getName() << std::endl;
-			if (inventory[i]->getType() == "cure")
-				std::cout <<  "* heals" << target.getName() << "’s wounds *" << std::endl;
-		}
-	}	
-} 
+		inventory[idx]->use(target);
+		std::cout << idx << std::endl;
+	}
+}	

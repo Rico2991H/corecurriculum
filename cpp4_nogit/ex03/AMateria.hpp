@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 10:31:24 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/31 16:28:56 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:12:46 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ class AMateria
 	public:
 		virtual ~AMateria();
 		AMateria &operator=(const AMateria& other);
-		void					setType();
+		void					setType(std::string input);
 		std::string const&		getType() const; 
-		virtual const AMateria* clone() const = 0;
+		virtual AMateria* clone() const = 0;
 		virtual	void			use(ICharacter& target) = 0;
 
 	protected:

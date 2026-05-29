@@ -6,7 +6,7 @@
 /*   By: rhoogend <rhoogend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/27 10:11:42 by rhoogend          #+#    #+#             */
-/*   Updated: 2026/03/27 11:29:26 by rhoogend         ###   ########.fr       */
+/*   Updated: 2026/05/27 12:22:37 by rhoogend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ Cat::Cat() : Animal()
 
 Cat::Cat(const Cat& other) : Animal(other)
 {
+	type = other.type;
 	std::cout << "Cat Copy constructor called\n";
 }
 
