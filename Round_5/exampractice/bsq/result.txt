@@ -1,0 +1,5840 @@
+iterating
+map->cols = 28 r = 28 and this is buf ........o....o.............
+map->cols = 28 r = 28 and this is buf ...........................
+map->cols = 28 r = 28 and this is buf ...........................
+map->cols = 28 r = 28 and this is buf ......o....................
+map->cols = 28 r = 28 and this is buf ...........................
+map->cols = 28 r = 28 and this is buf ...........................
+map->cols = 28 r = 28 and this is buf ......o....................
+map->cols = 28 r = 28 and this is buf ..o.......o................
+map->cols = 28 r = 28 and this is buf ...........................
+9 . o v
+...........................
+........o....o.............
+...........................
+...........................
+......o....................
+...........................
+...........................
+......o....................
+..o.......o................
+x_end = 0 x_start = 0 y_start = 0 y_end = 0
+in if
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 1
+x_end = 1 x_start = 0 y_start = 0 y_end = 1
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 2
+x_end = 2 x_start = 0 y_start = 0 y_end = 2
+in if
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 3
+x_end = 3 x_start = 0 y_start = 0 y_end = 3
+in if
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 4
+x_end = 4 x_start = 0 y_start = 0 y_end = 4
+in if
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 5
+x_end = 5 x_start = 0 y_start = 0 y_end = 5
+in if
+x_end = 5 x_start = 0
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 6
+x_end = 6 x_start = 0 y_start = 0 y_end = 6
+in if
+x_end = 6 x_start = 0
+x_end = 5 x_start = 0
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 0 y_end = 0
+sq = 7
+x_end = 7 x_start = 0 y_start = 0 y_end = 7
+in if
+x_end = 7 x_start = 0
+obstcl on y
+post while x_end = 6 x_start = 0 y_start = 0 y_end = 4
+x_end = 1 x_start = 1 y_start = 0 y_end = 0
+in if
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 1
+x_end = 2 x_start = 1 y_start = 0 y_end = 1
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 2
+x_end = 3 x_start = 1 y_start = 0 y_end = 2
+in if
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 3
+x_end = 4 x_start = 1 y_start = 0 y_end = 3
+in if
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 4
+x_end = 5 x_start = 1 y_start = 0 y_end = 4
+in if
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 5
+x_end = 6 x_start = 1 y_start = 0 y_end = 5
+in if
+x_end = 6 x_start = 1
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 6
+x_end = 7 x_start = 1 y_start = 0 y_end = 6
+in if
+x_end = 7 x_start = 1
+x_end = 6 x_start = 1
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 0 y_end = 0
+sq = 7
+x_end = 8 x_start = 1 y_start = 0 y_end = 7
+in if
+x_end = 8 x_start = 1
+x_end = 7 x_start = 1
+obstcl on y
+post while x_end = 6 x_start = 1 y_start = 0 y_end = 4
+x_end = 2 x_start = 2 y_start = 0 y_end = 0
+in if
+post while x_end = 2 x_start = 2 y_start = 0 y_end = 0
+sq = 1
+x_end = 3 x_start = 2 y_start = 0 y_end = 1
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 0 y_end = 0
+sq = 2
+x_end = 4 x_start = 2 y_start = 0 y_end = 2
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 0 y_end = 0
+sq = 3
+x_end = 5 x_start = 2 y_start = 0 y_end = 3
+in if
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 0 y_end = 0
+sq = 4
+x_end = 6 x_start = 2 y_start = 0 y_end = 4
+x_end = 3 x_start = 3 y_start = 0 y_end = 0
+in if
+post while x_end = 3 x_start = 3 y_start = 0 y_end = 0
+sq = 1
+x_end = 4 x_start = 3 y_start = 0 y_end = 1
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 0 y_end = 0
+sq = 2
+x_end = 5 x_start = 3 y_start = 0 y_end = 2
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 0 y_end = 0
+sq = 3
+x_end = 6 x_start = 3 y_start = 0 y_end = 3
+in if
+x_end = 6 x_start = 3
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 0 y_end = 0
+sq = 4
+x_end = 7 x_start = 3 y_start = 0 y_end = 4
+in if
+x_end = 7 x_start = 3
+post while x_end = 6 x_start = 3 y_start = 0 y_end = 0
+x_end = 4 x_start = 4 y_start = 0 y_end = 0
+in if
+post while x_end = 4 x_start = 4 y_start = 0 y_end = 0
+sq = 1
+x_end = 5 x_start = 4 y_start = 0 y_end = 1
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 0 y_end = 0
+sq = 2
+x_end = 6 x_start = 4 y_start = 0 y_end = 2
+in if
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 0 y_end = 0
+sq = 3
+x_end = 7 x_start = 4 y_start = 0 y_end = 3
+in if
+x_end = 7 x_start = 4
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 0 y_end = 0
+sq = 4
+x_end = 8 x_start = 4 y_start = 0 y_end = 4
+in if
+x_end = 8 x_start = 4
+x_end = 7 x_start = 4
+post while x_end = 6 x_start = 4 y_start = 0 y_end = 0
+x_end = 5 x_start = 5 y_start = 0 y_end = 0
+in if
+post while x_end = 5 x_start = 5 y_start = 0 y_end = 0
+sq = 1
+x_end = 6 x_start = 5 y_start = 0 y_end = 1
+in if
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 0 y_end = 0
+sq = 2
+x_end = 7 x_start = 5 y_start = 0 y_end = 2
+in if
+x_end = 7 x_start = 5
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 0 y_end = 0
+sq = 3
+x_end = 8 x_start = 5 y_start = 0 y_end = 3
+in if
+x_end = 8 x_start = 5
+x_end = 7 x_start = 5
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 0 y_end = 0
+sq = 4
+x_end = 9 x_start = 5 y_start = 0 y_end = 4
+in if
+x_end = 9 x_start = 5
+x_end = 8 x_start = 5
+x_end = 7 x_start = 5
+post while x_end = 6 x_start = 5 y_start = 0 y_end = 0
+x_end = 6 x_start = 6 y_start = 0 y_end = 0
+in if
+post while x_end = 6 x_start = 6 y_start = 0 y_end = 0
+sq = 1
+x_end = 7 x_start = 6 y_start = 0 y_end = 1
+in if
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 0 y_end = 0
+sq = 2
+x_end = 8 x_start = 6 y_start = 0 y_end = 2
+in if
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 0 y_end = 0
+sq = 3
+x_end = 9 x_start = 6 y_start = 0 y_end = 3
+in if
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 0 y_end = 0
+sq = 4
+x_end = 10 x_start = 6 y_start = 0 y_end = 4
+in if
+x_end = 10 x_start = 6
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 0 y_end = 0
+sq = 5
+x_end = 11 x_start = 6 y_start = 0 y_end = 5
+in if
+x_end = 11 x_start = 6
+x_end = 10 x_start = 6
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+obstcl on y
+post while x_end = 6 x_start = 6 y_start = 0 y_end = 4
+x_end = 7 x_start = 7 y_start = 0 y_end = 0
+in if
+post while x_end = 7 x_start = 7 y_start = 0 y_end = 0
+sq = 1
+x_end = 8 x_start = 7 y_start = 0 y_end = 1
+x_end = 8 x_start = 8 y_start = 0 y_end = 0
+in if
+post while x_end = 8 x_start = 8 y_start = 0 y_end = 0
+sq = 1
+x_end = 9 x_start = 8 y_start = 0 y_end = 1
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 0 y_end = 0
+sq = 2
+x_end = 10 x_start = 8 y_start = 0 y_end = 2
+in if
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+obstcl on y
+post while x_end = 8 x_start = 8 y_start = 0 y_end = 1
+x_end = 9 x_start = 9 y_start = 0 y_end = 0
+in if
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 1
+x_end = 10 x_start = 9 y_start = 0 y_end = 1
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 2
+x_end = 11 x_start = 9 y_start = 0 y_end = 2
+in if
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 3
+x_end = 12 x_start = 9 y_start = 0 y_end = 3
+in if
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 4
+x_end = 13 x_start = 9 y_start = 0 y_end = 4
+in if
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 5
+x_end = 14 x_start = 9 y_start = 0 y_end = 5
+in if
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 6
+x_end = 15 x_start = 9 y_start = 0 y_end = 6
+in if
+x_end = 15 x_start = 9
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 7
+x_end = 16 x_start = 9 y_start = 0 y_end = 7
+in if
+x_end = 16 x_start = 9
+x_end = 15 x_start = 9
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 0 y_end = 0
+sq = 8
+x_end = 17 x_start = 9 y_start = 0 y_end = 8
+in if
+x_end = 17 x_start = 9
+x_end = 16 x_start = 9
+x_end = 15 x_start = 9
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 0 y_end = 0
+x_end = 10 x_start = 10 y_start = 0 y_end = 0
+in if
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 1
+x_end = 11 x_start = 10 y_start = 0 y_end = 1
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 2
+x_end = 12 x_start = 10 y_start = 0 y_end = 2
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 3
+x_end = 13 x_start = 10 y_start = 0 y_end = 3
+in if
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 4
+x_end = 14 x_start = 10 y_start = 0 y_end = 4
+in if
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 5
+x_end = 15 x_start = 10 y_start = 0 y_end = 5
+in if
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 6
+x_end = 16 x_start = 10 y_start = 0 y_end = 6
+in if
+x_end = 16 x_start = 10
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 7
+x_end = 17 x_start = 10 y_start = 0 y_end = 7
+in if
+x_end = 17 x_start = 10
+x_end = 16 x_start = 10
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 8
+x_end = 18 x_start = 10 y_start = 0 y_end = 8
+in if
+x_end = 18 x_start = 10
+x_end = 17 x_start = 10
+x_end = 16 x_start = 10
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 0 y_end = 0
+sq = 9
+x_end = 11 x_start = 11 y_start = 0 y_end = 0
+in if
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 1
+x_end = 12 x_start = 11 y_start = 0 y_end = 1
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 2
+x_end = 13 x_start = 11 y_start = 0 y_end = 2
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 3
+x_end = 14 x_start = 11 y_start = 0 y_end = 3
+in if
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 4
+x_end = 15 x_start = 11 y_start = 0 y_end = 4
+in if
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 5
+x_end = 16 x_start = 11 y_start = 0 y_end = 5
+in if
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 6
+x_end = 17 x_start = 11 y_start = 0 y_end = 6
+in if
+x_end = 17 x_start = 11
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 7
+x_end = 18 x_start = 11 y_start = 0 y_end = 7
+in if
+x_end = 18 x_start = 11
+x_end = 17 x_start = 11
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 8
+x_end = 19 x_start = 11 y_start = 0 y_end = 8
+in if
+x_end = 19 x_start = 11
+x_end = 18 x_start = 11
+x_end = 17 x_start = 11
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 0 y_end = 0
+sq = 9
+x_end = 12 x_start = 12 y_start = 0 y_end = 0
+in if
+post while x_end = 12 x_start = 12 y_start = 0 y_end = 0
+sq = 1
+x_end = 13 x_start = 12 y_start = 0 y_end = 1
+x_end = 13 x_start = 13 y_start = 0 y_end = 0
+in if
+post while x_end = 13 x_start = 13 y_start = 0 y_end = 0
+sq = 1
+x_end = 14 x_start = 13 y_start = 0 y_end = 1
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 0 y_end = 0
+sq = 2
+x_end = 15 x_start = 13 y_start = 0 y_end = 2
+in if
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+obstcl on y
+post while x_end = 13 x_start = 13 y_start = 0 y_end = 1
+x_end = 14 x_start = 14 y_start = 0 y_end = 0
+in if
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 1
+x_end = 15 x_start = 14 y_start = 0 y_end = 1
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 2
+x_end = 16 x_start = 14 y_start = 0 y_end = 2
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 3
+x_end = 17 x_start = 14 y_start = 0 y_end = 3
+in if
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 4
+x_end = 18 x_start = 14 y_start = 0 y_end = 4
+in if
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 5
+x_end = 19 x_start = 14 y_start = 0 y_end = 5
+in if
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 6
+x_end = 20 x_start = 14 y_start = 0 y_end = 6
+in if
+x_end = 20 x_start = 14
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 7
+x_end = 21 x_start = 14 y_start = 0 y_end = 7
+in if
+x_end = 21 x_start = 14
+x_end = 20 x_start = 14
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 8
+x_end = 22 x_start = 14 y_start = 0 y_end = 8
+in if
+x_end = 22 x_start = 14
+x_end = 21 x_start = 14
+x_end = 20 x_start = 14
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 0 y_end = 0
+sq = 9
+x_end = 15 x_start = 15 y_start = 0 y_end = 0
+in if
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 1
+x_end = 16 x_start = 15 y_start = 0 y_end = 1
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 2
+x_end = 17 x_start = 15 y_start = 0 y_end = 2
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 3
+x_end = 18 x_start = 15 y_start = 0 y_end = 3
+in if
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 4
+x_end = 19 x_start = 15 y_start = 0 y_end = 4
+in if
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 5
+x_end = 20 x_start = 15 y_start = 0 y_end = 5
+in if
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 6
+x_end = 21 x_start = 15 y_start = 0 y_end = 6
+in if
+x_end = 21 x_start = 15
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 7
+x_end = 22 x_start = 15 y_start = 0 y_end = 7
+in if
+x_end = 22 x_start = 15
+x_end = 21 x_start = 15
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 8
+x_end = 23 x_start = 15 y_start = 0 y_end = 8
+in if
+x_end = 23 x_start = 15
+x_end = 22 x_start = 15
+x_end = 21 x_start = 15
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 0 y_end = 0
+sq = 9
+x_end = 16 x_start = 16 y_start = 0 y_end = 0
+in if
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 1
+x_end = 17 x_start = 16 y_start = 0 y_end = 1
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 2
+x_end = 18 x_start = 16 y_start = 0 y_end = 2
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 3
+x_end = 19 x_start = 16 y_start = 0 y_end = 3
+in if
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 4
+x_end = 20 x_start = 16 y_start = 0 y_end = 4
+in if
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 5
+x_end = 21 x_start = 16 y_start = 0 y_end = 5
+in if
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 6
+x_end = 22 x_start = 16 y_start = 0 y_end = 6
+in if
+x_end = 22 x_start = 16
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 7
+x_end = 23 x_start = 16 y_start = 0 y_end = 7
+in if
+x_end = 23 x_start = 16
+x_end = 22 x_start = 16
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 8
+x_end = 24 x_start = 16 y_start = 0 y_end = 8
+in if
+x_end = 24 x_start = 16
+x_end = 23 x_start = 16
+x_end = 22 x_start = 16
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 0 y_end = 0
+sq = 9
+x_end = 17 x_start = 17 y_start = 0 y_end = 0
+in if
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 1
+x_end = 18 x_start = 17 y_start = 0 y_end = 1
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 2
+x_end = 19 x_start = 17 y_start = 0 y_end = 2
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 3
+x_end = 20 x_start = 17 y_start = 0 y_end = 3
+in if
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 4
+x_end = 21 x_start = 17 y_start = 0 y_end = 4
+in if
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 5
+x_end = 22 x_start = 17 y_start = 0 y_end = 5
+in if
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 6
+x_end = 23 x_start = 17 y_start = 0 y_end = 6
+in if
+x_end = 23 x_start = 17
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 7
+x_end = 24 x_start = 17 y_start = 0 y_end = 7
+in if
+x_end = 24 x_start = 17
+x_end = 23 x_start = 17
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 8
+x_end = 25 x_start = 17 y_start = 0 y_end = 8
+in if
+x_end = 25 x_start = 17
+x_end = 24 x_start = 17
+x_end = 23 x_start = 17
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 0 y_end = 0
+sq = 9
+x_end = 18 x_start = 18 y_start = 0 y_end = 0
+in if
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 1
+x_end = 19 x_start = 18 y_start = 0 y_end = 1
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 2
+x_end = 20 x_start = 18 y_start = 0 y_end = 2
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 3
+x_end = 21 x_start = 18 y_start = 0 y_end = 3
+in if
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 4
+x_end = 22 x_start = 18 y_start = 0 y_end = 4
+in if
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 5
+x_end = 23 x_start = 18 y_start = 0 y_end = 5
+in if
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 6
+x_end = 24 x_start = 18 y_start = 0 y_end = 6
+in if
+x_end = 24 x_start = 18
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 7
+x_end = 25 x_start = 18 y_start = 0 y_end = 7
+in if
+x_end = 25 x_start = 18
+x_end = 24 x_start = 18
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 8
+x_end = 26 x_start = 18 y_start = 0 y_end = 8
+in if
+x_end = 26 x_start = 18
+x_end = 25 x_start = 18
+x_end = 24 x_start = 18
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 0 y_end = 0
+sq = 9
+x_end = 19 x_start = 19 y_start = 0 y_end = 0
+in if
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 1
+x_end = 20 x_start = 19 y_start = 0 y_end = 1
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 2
+x_end = 21 x_start = 19 y_start = 0 y_end = 2
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 3
+x_end = 22 x_start = 19 y_start = 0 y_end = 3
+in if
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 4
+x_end = 23 x_start = 19 y_start = 0 y_end = 4
+in if
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 5
+x_end = 24 x_start = 19 y_start = 0 y_end = 5
+in if
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 6
+x_end = 25 x_start = 19 y_start = 0 y_end = 6
+in if
+x_end = 25 x_start = 19
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 7
+x_end = 26 x_start = 19 y_start = 0 y_end = 7
+in if
+x_end = 26 x_start = 19
+x_end = 25 x_start = 19
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 0 y_end = 0
+sq = 8
+x_end = 20 x_start = 20 y_start = 0 y_end = 0
+in if
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 1
+x_end = 21 x_start = 20 y_start = 0 y_end = 1
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 2
+x_end = 22 x_start = 20 y_start = 0 y_end = 2
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 3
+x_end = 23 x_start = 20 y_start = 0 y_end = 3
+in if
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 4
+x_end = 24 x_start = 20 y_start = 0 y_end = 4
+in if
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 5
+x_end = 25 x_start = 20 y_start = 0 y_end = 5
+in if
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 6
+x_end = 26 x_start = 20 y_start = 0 y_end = 6
+in if
+x_end = 26 x_start = 20
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 0 y_end = 0
+sq = 7
+x_end = 21 x_start = 21 y_start = 0 y_end = 0
+in if
+post while x_end = 21 x_start = 21 y_start = 0 y_end = 0
+sq = 1
+x_end = 22 x_start = 21 y_start = 0 y_end = 1
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 0 y_end = 0
+sq = 2
+x_end = 23 x_start = 21 y_start = 0 y_end = 2
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 0 y_end = 0
+sq = 3
+x_end = 24 x_start = 21 y_start = 0 y_end = 3
+in if
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 0 y_end = 0
+sq = 4
+x_end = 25 x_start = 21 y_start = 0 y_end = 4
+in if
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 0 y_end = 0
+sq = 5
+x_end = 26 x_start = 21 y_start = 0 y_end = 5
+in if
+x_end = 26 x_start = 21
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 0 y_end = 0
+sq = 6
+x_end = 22 x_start = 22 y_start = 0 y_end = 0
+in if
+post while x_end = 22 x_start = 22 y_start = 0 y_end = 0
+sq = 1
+x_end = 23 x_start = 22 y_start = 0 y_end = 1
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 0 y_end = 0
+sq = 2
+x_end = 24 x_start = 22 y_start = 0 y_end = 2
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 0 y_end = 0
+sq = 3
+x_end = 25 x_start = 22 y_start = 0 y_end = 3
+in if
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 0 y_end = 0
+sq = 4
+x_end = 26 x_start = 22 y_start = 0 y_end = 4
+in if
+x_end = 26 x_start = 22
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 0 y_end = 0
+sq = 5
+x_end = 23 x_start = 23 y_start = 0 y_end = 0
+in if
+post while x_end = 23 x_start = 23 y_start = 0 y_end = 0
+sq = 1
+x_end = 24 x_start = 23 y_start = 0 y_end = 1
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 0 y_end = 0
+sq = 2
+x_end = 25 x_start = 23 y_start = 0 y_end = 2
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 0 y_end = 0
+sq = 3
+x_end = 26 x_start = 23 y_start = 0 y_end = 3
+in if
+x_end = 26 x_start = 23
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 0 y_end = 0
+sq = 4
+x_end = 24 x_start = 24 y_start = 0 y_end = 0
+in if
+post while x_end = 24 x_start = 24 y_start = 0 y_end = 0
+sq = 1
+x_end = 25 x_start = 24 y_start = 0 y_end = 1
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 0 y_end = 0
+sq = 2
+x_end = 26 x_start = 24 y_start = 0 y_end = 2
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 0 y_end = 0
+sq = 3
+x_end = 25 x_start = 25 y_start = 0 y_end = 0
+in if
+post while x_end = 25 x_start = 25 y_start = 0 y_end = 0
+sq = 1
+x_end = 26 x_start = 25 y_start = 0 y_end = 1
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 0 y_end = 0
+sq = 2
+x_end = 26 x_start = 26 y_start = 0 y_end = 0
+in if
+post while x_end = 26 x_start = 26 y_start = 0 y_end = 0
+sq = 1
+x_end = 0 x_start = 0 y_start = 1 y_end = 1
+in if
+post while x_end = 0 x_start = 0 y_start = 1 y_end = 1
+sq = 1
+x_end = 1 x_start = 0 y_start = 1 y_end = 2
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 1 y_end = 1
+sq = 2
+x_end = 2 x_start = 0 y_start = 1 y_end = 3
+in if
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 1 y_end = 1
+sq = 3
+x_end = 3 x_start = 0 y_start = 1 y_end = 4
+in if
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 1 y_end = 1
+sq = 4
+x_end = 4 x_start = 0 y_start = 1 y_end = 5
+in if
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 1 y_end = 1
+sq = 5
+x_end = 5 x_start = 0 y_start = 1 y_end = 6
+in if
+x_end = 5 x_start = 0
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 1 y_end = 1
+sq = 6
+x_end = 6 x_start = 0 y_start = 1 y_end = 7
+x_end = 1 x_start = 1 y_start = 1 y_end = 1
+in if
+post while x_end = 1 x_start = 1 y_start = 1 y_end = 1
+sq = 1
+x_end = 2 x_start = 1 y_start = 1 y_end = 2
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 1 y_end = 1
+sq = 2
+x_end = 3 x_start = 1 y_start = 1 y_end = 3
+in if
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 1 y_end = 1
+sq = 3
+x_end = 4 x_start = 1 y_start = 1 y_end = 4
+in if
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 1 y_end = 1
+sq = 4
+x_end = 5 x_start = 1 y_start = 1 y_end = 5
+in if
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 1 y_end = 1
+sq = 5
+x_end = 6 x_start = 1 y_start = 1 y_end = 6
+in if
+x_end = 6 x_start = 1
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 1 y_end = 1
+sq = 6
+x_end = 7 x_start = 1 y_start = 1 y_end = 7
+in if
+x_end = 7 x_start = 1
+obstcl on y
+post while x_end = 6 x_start = 1 y_start = 1 y_end = 4
+x_end = 2 x_start = 2 y_start = 1 y_end = 1
+in if
+post while x_end = 2 x_start = 2 y_start = 1 y_end = 1
+sq = 1
+x_end = 3 x_start = 2 y_start = 1 y_end = 2
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 1 y_end = 1
+sq = 2
+x_end = 4 x_start = 2 y_start = 1 y_end = 3
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 1 y_end = 1
+sq = 3
+x_end = 5 x_start = 2 y_start = 1 y_end = 4
+in if
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 1 y_end = 1
+sq = 4
+x_end = 6 x_start = 2 y_start = 1 y_end = 5
+in if
+x_end = 6 x_start = 2
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 1 y_end = 1
+sq = 5
+x_end = 7 x_start = 2 y_start = 1 y_end = 6
+in if
+x_end = 7 x_start = 2
+x_end = 6 x_start = 2
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 1 y_end = 1
+sq = 6
+x_end = 8 x_start = 2 y_start = 1 y_end = 7
+in if
+x_end = 8 x_start = 2
+x_end = 7 x_start = 2
+obstcl on y
+post while x_end = 6 x_start = 2 y_start = 1 y_end = 4
+x_end = 3 x_start = 3 y_start = 1 y_end = 1
+in if
+post while x_end = 3 x_start = 3 y_start = 1 y_end = 1
+sq = 1
+x_end = 4 x_start = 3 y_start = 1 y_end = 2
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 1 y_end = 1
+sq = 2
+x_end = 5 x_start = 3 y_start = 1 y_end = 3
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 1 y_end = 1
+sq = 3
+x_end = 6 x_start = 3 y_start = 1 y_end = 4
+x_end = 4 x_start = 4 y_start = 1 y_end = 1
+in if
+post while x_end = 4 x_start = 4 y_start = 1 y_end = 1
+sq = 1
+x_end = 5 x_start = 4 y_start = 1 y_end = 2
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 1 y_end = 1
+sq = 2
+x_end = 6 x_start = 4 y_start = 1 y_end = 3
+in if
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 1 y_end = 1
+sq = 3
+x_end = 7 x_start = 4 y_start = 1 y_end = 4
+in if
+x_end = 7 x_start = 4
+post while x_end = 6 x_start = 4 y_start = 1 y_end = 1
+x_end = 5 x_start = 5 y_start = 1 y_end = 1
+in if
+post while x_end = 5 x_start = 5 y_start = 1 y_end = 1
+sq = 1
+x_end = 6 x_start = 5 y_start = 1 y_end = 2
+in if
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 1 y_end = 1
+sq = 2
+x_end = 7 x_start = 5 y_start = 1 y_end = 3
+in if
+x_end = 7 x_start = 5
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 1 y_end = 1
+sq = 3
+x_end = 8 x_start = 5 y_start = 1 y_end = 4
+in if
+x_end = 8 x_start = 5
+x_end = 7 x_start = 5
+post while x_end = 6 x_start = 5 y_start = 1 y_end = 1
+x_end = 6 x_start = 6 y_start = 1 y_end = 1
+in if
+post while x_end = 6 x_start = 6 y_start = 1 y_end = 1
+sq = 1
+x_end = 7 x_start = 6 y_start = 1 y_end = 2
+in if
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 1 y_end = 1
+sq = 2
+x_end = 8 x_start = 6 y_start = 1 y_end = 3
+in if
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 1 y_end = 1
+sq = 3
+x_end = 9 x_start = 6 y_start = 1 y_end = 4
+in if
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 1 y_end = 1
+sq = 4
+x_end = 10 x_start = 6 y_start = 1 y_end = 5
+in if
+x_end = 10 x_start = 6
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+obstcl on y
+post while x_end = 6 x_start = 6 y_start = 1 y_end = 4
+x_end = 7 x_start = 7 y_start = 1 y_end = 1
+in if
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 1
+x_end = 8 x_start = 7 y_start = 1 y_end = 2
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 2
+x_end = 9 x_start = 7 y_start = 1 y_end = 3
+in if
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 3
+x_end = 10 x_start = 7 y_start = 1 y_end = 4
+in if
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 4
+x_end = 11 x_start = 7 y_start = 1 y_end = 5
+in if
+x_end = 11 x_start = 7
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 5
+x_end = 12 x_start = 7 y_start = 1 y_end = 6
+in if
+x_end = 12 x_start = 7
+x_end = 11 x_start = 7
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 6
+x_end = 13 x_start = 7 y_start = 1 y_end = 7
+in if
+x_end = 13 x_start = 7
+x_end = 12 x_start = 7
+x_end = 11 x_start = 7
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 1 y_end = 1
+sq = 7
+x_end = 14 x_start = 7 y_start = 1 y_end = 8
+in if
+x_end = 14 x_start = 7
+x_end = 13 x_start = 7
+x_end = 12 x_start = 7
+x_end = 11 x_start = 7
+post while x_end = 10 x_start = 7 y_start = 1 y_end = 1
+x_end = 8 x_start = 8 y_start = 1 y_end = 1
+x_end = 9 x_start = 9 y_start = 1 y_end = 1
+in if
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 1
+x_end = 10 x_start = 9 y_start = 1 y_end = 2
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 2
+x_end = 11 x_start = 9 y_start = 1 y_end = 3
+in if
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 3
+x_end = 12 x_start = 9 y_start = 1 y_end = 4
+in if
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 4
+x_end = 13 x_start = 9 y_start = 1 y_end = 5
+in if
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 5
+x_end = 14 x_start = 9 y_start = 1 y_end = 6
+in if
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 6
+x_end = 15 x_start = 9 y_start = 1 y_end = 7
+in if
+x_end = 15 x_start = 9
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 1 y_end = 1
+sq = 7
+x_end = 16 x_start = 9 y_start = 1 y_end = 8
+in if
+x_end = 16 x_start = 9
+x_end = 15 x_start = 9
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 1 y_end = 1
+x_end = 10 x_start = 10 y_start = 1 y_end = 1
+in if
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 1
+x_end = 11 x_start = 10 y_start = 1 y_end = 2
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 2
+x_end = 12 x_start = 10 y_start = 1 y_end = 3
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 3
+x_end = 13 x_start = 10 y_start = 1 y_end = 4
+in if
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 4
+x_end = 14 x_start = 10 y_start = 1 y_end = 5
+in if
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 5
+x_end = 15 x_start = 10 y_start = 1 y_end = 6
+in if
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 6
+x_end = 16 x_start = 10 y_start = 1 y_end = 7
+in if
+x_end = 16 x_start = 10
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 7
+x_end = 17 x_start = 10 y_start = 1 y_end = 8
+in if
+x_end = 17 x_start = 10
+x_end = 16 x_start = 10
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 1 y_end = 1
+sq = 8
+x_end = 11 x_start = 11 y_start = 1 y_end = 1
+in if
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 1
+x_end = 12 x_start = 11 y_start = 1 y_end = 2
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 2
+x_end = 13 x_start = 11 y_start = 1 y_end = 3
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 3
+x_end = 14 x_start = 11 y_start = 1 y_end = 4
+in if
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 4
+x_end = 15 x_start = 11 y_start = 1 y_end = 5
+in if
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 5
+x_end = 16 x_start = 11 y_start = 1 y_end = 6
+in if
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 6
+x_end = 17 x_start = 11 y_start = 1 y_end = 7
+in if
+x_end = 17 x_start = 11
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 7
+x_end = 18 x_start = 11 y_start = 1 y_end = 8
+in if
+x_end = 18 x_start = 11
+x_end = 17 x_start = 11
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 1 y_end = 1
+sq = 8
+x_end = 12 x_start = 12 y_start = 1 y_end = 1
+in if
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 1
+x_end = 13 x_start = 12 y_start = 1 y_end = 2
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 2
+x_end = 14 x_start = 12 y_start = 1 y_end = 3
+in if
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 3
+x_end = 15 x_start = 12 y_start = 1 y_end = 4
+in if
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 4
+x_end = 16 x_start = 12 y_start = 1 y_end = 5
+in if
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 5
+x_end = 17 x_start = 12 y_start = 1 y_end = 6
+in if
+x_end = 17 x_start = 12
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 6
+x_end = 18 x_start = 12 y_start = 1 y_end = 7
+in if
+x_end = 18 x_start = 12
+x_end = 17 x_start = 12
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 7
+x_end = 19 x_start = 12 y_start = 1 y_end = 8
+in if
+x_end = 19 x_start = 12
+x_end = 18 x_start = 12
+x_end = 17 x_start = 12
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 1 y_end = 1
+sq = 8
+x_end = 13 x_start = 13 y_start = 1 y_end = 1
+x_end = 14 x_start = 14 y_start = 1 y_end = 1
+in if
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 1
+x_end = 15 x_start = 14 y_start = 1 y_end = 2
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 2
+x_end = 16 x_start = 14 y_start = 1 y_end = 3
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 3
+x_end = 17 x_start = 14 y_start = 1 y_end = 4
+in if
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 4
+x_end = 18 x_start = 14 y_start = 1 y_end = 5
+in if
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 5
+x_end = 19 x_start = 14 y_start = 1 y_end = 6
+in if
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 6
+x_end = 20 x_start = 14 y_start = 1 y_end = 7
+in if
+x_end = 20 x_start = 14
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 7
+x_end = 21 x_start = 14 y_start = 1 y_end = 8
+in if
+x_end = 21 x_start = 14
+x_end = 20 x_start = 14
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 1 y_end = 1
+sq = 8
+x_end = 15 x_start = 15 y_start = 1 y_end = 1
+in if
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 1
+x_end = 16 x_start = 15 y_start = 1 y_end = 2
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 2
+x_end = 17 x_start = 15 y_start = 1 y_end = 3
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 3
+x_end = 18 x_start = 15 y_start = 1 y_end = 4
+in if
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 4
+x_end = 19 x_start = 15 y_start = 1 y_end = 5
+in if
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 5
+x_end = 20 x_start = 15 y_start = 1 y_end = 6
+in if
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 6
+x_end = 21 x_start = 15 y_start = 1 y_end = 7
+in if
+x_end = 21 x_start = 15
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 7
+x_end = 22 x_start = 15 y_start = 1 y_end = 8
+in if
+x_end = 22 x_start = 15
+x_end = 21 x_start = 15
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 1 y_end = 1
+sq = 8
+x_end = 16 x_start = 16 y_start = 1 y_end = 1
+in if
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 1
+x_end = 17 x_start = 16 y_start = 1 y_end = 2
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 2
+x_end = 18 x_start = 16 y_start = 1 y_end = 3
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 3
+x_end = 19 x_start = 16 y_start = 1 y_end = 4
+in if
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 4
+x_end = 20 x_start = 16 y_start = 1 y_end = 5
+in if
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 5
+x_end = 21 x_start = 16 y_start = 1 y_end = 6
+in if
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 6
+x_end = 22 x_start = 16 y_start = 1 y_end = 7
+in if
+x_end = 22 x_start = 16
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 7
+x_end = 23 x_start = 16 y_start = 1 y_end = 8
+in if
+x_end = 23 x_start = 16
+x_end = 22 x_start = 16
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 1 y_end = 1
+sq = 8
+x_end = 17 x_start = 17 y_start = 1 y_end = 1
+in if
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 1
+x_end = 18 x_start = 17 y_start = 1 y_end = 2
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 2
+x_end = 19 x_start = 17 y_start = 1 y_end = 3
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 3
+x_end = 20 x_start = 17 y_start = 1 y_end = 4
+in if
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 4
+x_end = 21 x_start = 17 y_start = 1 y_end = 5
+in if
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 5
+x_end = 22 x_start = 17 y_start = 1 y_end = 6
+in if
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 6
+x_end = 23 x_start = 17 y_start = 1 y_end = 7
+in if
+x_end = 23 x_start = 17
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 7
+x_end = 24 x_start = 17 y_start = 1 y_end = 8
+in if
+x_end = 24 x_start = 17
+x_end = 23 x_start = 17
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 1 y_end = 1
+sq = 8
+x_end = 18 x_start = 18 y_start = 1 y_end = 1
+in if
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 1
+x_end = 19 x_start = 18 y_start = 1 y_end = 2
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 2
+x_end = 20 x_start = 18 y_start = 1 y_end = 3
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 3
+x_end = 21 x_start = 18 y_start = 1 y_end = 4
+in if
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 4
+x_end = 22 x_start = 18 y_start = 1 y_end = 5
+in if
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 5
+x_end = 23 x_start = 18 y_start = 1 y_end = 6
+in if
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 6
+x_end = 24 x_start = 18 y_start = 1 y_end = 7
+in if
+x_end = 24 x_start = 18
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 7
+x_end = 25 x_start = 18 y_start = 1 y_end = 8
+in if
+x_end = 25 x_start = 18
+x_end = 24 x_start = 18
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 1 y_end = 1
+sq = 8
+x_end = 19 x_start = 19 y_start = 1 y_end = 1
+in if
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 1
+x_end = 20 x_start = 19 y_start = 1 y_end = 2
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 2
+x_end = 21 x_start = 19 y_start = 1 y_end = 3
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 3
+x_end = 22 x_start = 19 y_start = 1 y_end = 4
+in if
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 4
+x_end = 23 x_start = 19 y_start = 1 y_end = 5
+in if
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 5
+x_end = 24 x_start = 19 y_start = 1 y_end = 6
+in if
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 6
+x_end = 25 x_start = 19 y_start = 1 y_end = 7
+in if
+x_end = 25 x_start = 19
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 7
+x_end = 26 x_start = 19 y_start = 1 y_end = 8
+in if
+x_end = 26 x_start = 19
+x_end = 25 x_start = 19
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 1 y_end = 1
+sq = 8
+x_end = 20 x_start = 20 y_start = 1 y_end = 1
+in if
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 1
+x_end = 21 x_start = 20 y_start = 1 y_end = 2
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 2
+x_end = 22 x_start = 20 y_start = 1 y_end = 3
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 3
+x_end = 23 x_start = 20 y_start = 1 y_end = 4
+in if
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 4
+x_end = 24 x_start = 20 y_start = 1 y_end = 5
+in if
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 5
+x_end = 25 x_start = 20 y_start = 1 y_end = 6
+in if
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 6
+x_end = 26 x_start = 20 y_start = 1 y_end = 7
+in if
+x_end = 26 x_start = 20
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 1 y_end = 1
+sq = 7
+x_end = 21 x_start = 21 y_start = 1 y_end = 1
+in if
+post while x_end = 21 x_start = 21 y_start = 1 y_end = 1
+sq = 1
+x_end = 22 x_start = 21 y_start = 1 y_end = 2
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 1 y_end = 1
+sq = 2
+x_end = 23 x_start = 21 y_start = 1 y_end = 3
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 1 y_end = 1
+sq = 3
+x_end = 24 x_start = 21 y_start = 1 y_end = 4
+in if
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 1 y_end = 1
+sq = 4
+x_end = 25 x_start = 21 y_start = 1 y_end = 5
+in if
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 1 y_end = 1
+sq = 5
+x_end = 26 x_start = 21 y_start = 1 y_end = 6
+in if
+x_end = 26 x_start = 21
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 1 y_end = 1
+sq = 6
+x_end = 22 x_start = 22 y_start = 1 y_end = 1
+in if
+post while x_end = 22 x_start = 22 y_start = 1 y_end = 1
+sq = 1
+x_end = 23 x_start = 22 y_start = 1 y_end = 2
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 1 y_end = 1
+sq = 2
+x_end = 24 x_start = 22 y_start = 1 y_end = 3
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 1 y_end = 1
+sq = 3
+x_end = 25 x_start = 22 y_start = 1 y_end = 4
+in if
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 1 y_end = 1
+sq = 4
+x_end = 26 x_start = 22 y_start = 1 y_end = 5
+in if
+x_end = 26 x_start = 22
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 1 y_end = 1
+sq = 5
+x_end = 23 x_start = 23 y_start = 1 y_end = 1
+in if
+post while x_end = 23 x_start = 23 y_start = 1 y_end = 1
+sq = 1
+x_end = 24 x_start = 23 y_start = 1 y_end = 2
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 1 y_end = 1
+sq = 2
+x_end = 25 x_start = 23 y_start = 1 y_end = 3
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 1 y_end = 1
+sq = 3
+x_end = 26 x_start = 23 y_start = 1 y_end = 4
+in if
+x_end = 26 x_start = 23
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 1 y_end = 1
+sq = 4
+x_end = 24 x_start = 24 y_start = 1 y_end = 1
+in if
+post while x_end = 24 x_start = 24 y_start = 1 y_end = 1
+sq = 1
+x_end = 25 x_start = 24 y_start = 1 y_end = 2
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 1 y_end = 1
+sq = 2
+x_end = 26 x_start = 24 y_start = 1 y_end = 3
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 1 y_end = 1
+sq = 3
+x_end = 25 x_start = 25 y_start = 1 y_end = 1
+in if
+post while x_end = 25 x_start = 25 y_start = 1 y_end = 1
+sq = 1
+x_end = 26 x_start = 25 y_start = 1 y_end = 2
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 1 y_end = 1
+sq = 2
+x_end = 26 x_start = 26 y_start = 1 y_end = 1
+in if
+post while x_end = 26 x_start = 26 y_start = 1 y_end = 1
+sq = 1
+x_end = 0 x_start = 0 y_start = 2 y_end = 2
+in if
+post while x_end = 0 x_start = 0 y_start = 2 y_end = 2
+sq = 1
+x_end = 1 x_start = 0 y_start = 2 y_end = 3
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 2 y_end = 2
+sq = 2
+x_end = 2 x_start = 0 y_start = 2 y_end = 4
+in if
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 2 y_end = 2
+sq = 3
+x_end = 3 x_start = 0 y_start = 2 y_end = 5
+in if
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 2 y_end = 2
+sq = 4
+x_end = 4 x_start = 0 y_start = 2 y_end = 6
+in if
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 2 y_end = 2
+sq = 5
+x_end = 5 x_start = 0 y_start = 2 y_end = 7
+in if
+x_end = 5 x_start = 0
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 2 y_end = 2
+sq = 6
+x_end = 6 x_start = 0 y_start = 2 y_end = 8
+in if
+x_end = 6 x_start = 0
+x_end = 5 x_start = 0
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+post while x_end = 2 x_start = 0 y_start = 2 y_end = 2
+x_end = 1 x_start = 1 y_start = 2 y_end = 2
+in if
+post while x_end = 1 x_start = 1 y_start = 2 y_end = 2
+sq = 1
+x_end = 2 x_start = 1 y_start = 2 y_end = 3
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 2 y_end = 2
+sq = 2
+x_end = 3 x_start = 1 y_start = 2 y_end = 4
+in if
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 2 y_end = 2
+sq = 3
+x_end = 4 x_start = 1 y_start = 2 y_end = 5
+in if
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 2 y_end = 2
+sq = 4
+x_end = 5 x_start = 1 y_start = 2 y_end = 6
+in if
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 2 y_end = 2
+sq = 5
+x_end = 6 x_start = 1 y_start = 2 y_end = 7
+x_end = 2 x_start = 2 y_start = 2 y_end = 2
+in if
+post while x_end = 2 x_start = 2 y_start = 2 y_end = 2
+sq = 1
+x_end = 3 x_start = 2 y_start = 2 y_end = 3
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 2 y_end = 2
+sq = 2
+x_end = 4 x_start = 2 y_start = 2 y_end = 4
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 2 y_end = 2
+sq = 3
+x_end = 5 x_start = 2 y_start = 2 y_end = 5
+in if
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 2 y_end = 2
+sq = 4
+x_end = 6 x_start = 2 y_start = 2 y_end = 6
+in if
+x_end = 6 x_start = 2
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 2 y_end = 2
+sq = 5
+x_end = 7 x_start = 2 y_start = 2 y_end = 7
+in if
+x_end = 7 x_start = 2
+obstcl on y
+post while x_end = 6 x_start = 2 y_start = 2 y_end = 4
+x_end = 3 x_start = 3 y_start = 2 y_end = 2
+in if
+post while x_end = 3 x_start = 3 y_start = 2 y_end = 2
+sq = 1
+x_end = 4 x_start = 3 y_start = 2 y_end = 3
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 2 y_end = 2
+sq = 2
+x_end = 5 x_start = 3 y_start = 2 y_end = 4
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 2 y_end = 2
+sq = 3
+x_end = 6 x_start = 3 y_start = 2 y_end = 5
+in if
+x_end = 6 x_start = 3
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 2 y_end = 2
+sq = 4
+x_end = 7 x_start = 3 y_start = 2 y_end = 6
+in if
+x_end = 7 x_start = 3
+x_end = 6 x_start = 3
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 2 y_end = 2
+sq = 5
+x_end = 8 x_start = 3 y_start = 2 y_end = 7
+in if
+x_end = 8 x_start = 3
+x_end = 7 x_start = 3
+obstcl on y
+post while x_end = 6 x_start = 3 y_start = 2 y_end = 4
+x_end = 4 x_start = 4 y_start = 2 y_end = 2
+in if
+post while x_end = 4 x_start = 4 y_start = 2 y_end = 2
+sq = 1
+x_end = 5 x_start = 4 y_start = 2 y_end = 3
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 2 y_end = 2
+sq = 2
+x_end = 6 x_start = 4 y_start = 2 y_end = 4
+x_end = 5 x_start = 5 y_start = 2 y_end = 2
+in if
+post while x_end = 5 x_start = 5 y_start = 2 y_end = 2
+sq = 1
+x_end = 6 x_start = 5 y_start = 2 y_end = 3
+in if
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 2 y_end = 2
+sq = 2
+x_end = 7 x_start = 5 y_start = 2 y_end = 4
+in if
+x_end = 7 x_start = 5
+post while x_end = 6 x_start = 5 y_start = 2 y_end = 2
+x_end = 6 x_start = 6 y_start = 2 y_end = 2
+in if
+post while x_end = 6 x_start = 6 y_start = 2 y_end = 2
+sq = 1
+x_end = 7 x_start = 6 y_start = 2 y_end = 3
+in if
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 2 y_end = 2
+sq = 2
+x_end = 8 x_start = 6 y_start = 2 y_end = 4
+in if
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 2 y_end = 2
+sq = 3
+x_end = 9 x_start = 6 y_start = 2 y_end = 5
+in if
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+obstcl on y
+post while x_end = 6 x_start = 6 y_start = 2 y_end = 4
+x_end = 7 x_start = 7 y_start = 2 y_end = 2
+in if
+post while x_end = 7 x_start = 7 y_start = 2 y_end = 2
+sq = 1
+x_end = 8 x_start = 7 y_start = 2 y_end = 3
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 2 y_end = 2
+sq = 2
+x_end = 9 x_start = 7 y_start = 2 y_end = 4
+in if
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 2 y_end = 2
+sq = 3
+x_end = 10 x_start = 7 y_start = 2 y_end = 5
+in if
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 2 y_end = 2
+sq = 4
+x_end = 11 x_start = 7 y_start = 2 y_end = 6
+in if
+x_end = 11 x_start = 7
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 2 y_end = 2
+sq = 5
+x_end = 12 x_start = 7 y_start = 2 y_end = 7
+in if
+x_end = 12 x_start = 7
+x_end = 11 x_start = 7
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 2 y_end = 2
+sq = 6
+x_end = 13 x_start = 7 y_start = 2 y_end = 8
+in if
+x_end = 13 x_start = 7
+x_end = 12 x_start = 7
+x_end = 11 x_start = 7
+post while x_end = 10 x_start = 7 y_start = 2 y_end = 2
+x_end = 8 x_start = 8 y_start = 2 y_end = 2
+in if
+post while x_end = 8 x_start = 8 y_start = 2 y_end = 2
+sq = 1
+x_end = 9 x_start = 8 y_start = 2 y_end = 3
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 2 y_end = 2
+sq = 2
+x_end = 10 x_start = 8 y_start = 2 y_end = 4
+in if
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 2 y_end = 2
+sq = 3
+x_end = 11 x_start = 8 y_start = 2 y_end = 5
+in if
+x_end = 11 x_start = 8
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 2 y_end = 2
+sq = 4
+x_end = 12 x_start = 8 y_start = 2 y_end = 6
+in if
+x_end = 12 x_start = 8
+x_end = 11 x_start = 8
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 2 y_end = 2
+sq = 5
+x_end = 13 x_start = 8 y_start = 2 y_end = 7
+in if
+x_end = 13 x_start = 8
+x_end = 12 x_start = 8
+x_end = 11 x_start = 8
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 2 y_end = 2
+sq = 6
+x_end = 14 x_start = 8 y_start = 2 y_end = 8
+in if
+x_end = 14 x_start = 8
+x_end = 13 x_start = 8
+x_end = 12 x_start = 8
+x_end = 11 x_start = 8
+post while x_end = 10 x_start = 8 y_start = 2 y_end = 2
+x_end = 9 x_start = 9 y_start = 2 y_end = 2
+in if
+post while x_end = 9 x_start = 9 y_start = 2 y_end = 2
+sq = 1
+x_end = 10 x_start = 9 y_start = 2 y_end = 3
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 2 y_end = 2
+sq = 2
+x_end = 11 x_start = 9 y_start = 2 y_end = 4
+in if
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 2 y_end = 2
+sq = 3
+x_end = 12 x_start = 9 y_start = 2 y_end = 5
+in if
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 2 y_end = 2
+sq = 4
+x_end = 13 x_start = 9 y_start = 2 y_end = 6
+in if
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 2 y_end = 2
+sq = 5
+x_end = 14 x_start = 9 y_start = 2 y_end = 7
+in if
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 2 y_end = 2
+sq = 6
+x_end = 15 x_start = 9 y_start = 2 y_end = 8
+in if
+x_end = 15 x_start = 9
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 2 y_end = 2
+x_end = 10 x_start = 10 y_start = 2 y_end = 2
+in if
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 1
+x_end = 11 x_start = 10 y_start = 2 y_end = 3
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 2
+x_end = 12 x_start = 10 y_start = 2 y_end = 4
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 3
+x_end = 13 x_start = 10 y_start = 2 y_end = 5
+in if
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 4
+x_end = 14 x_start = 10 y_start = 2 y_end = 6
+in if
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 5
+x_end = 15 x_start = 10 y_start = 2 y_end = 7
+in if
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 6
+x_end = 16 x_start = 10 y_start = 2 y_end = 8
+in if
+x_end = 16 x_start = 10
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 2 y_end = 2
+sq = 7
+x_end = 11 x_start = 11 y_start = 2 y_end = 2
+in if
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 1
+x_end = 12 x_start = 11 y_start = 2 y_end = 3
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 2
+x_end = 13 x_start = 11 y_start = 2 y_end = 4
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 3
+x_end = 14 x_start = 11 y_start = 2 y_end = 5
+in if
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 4
+x_end = 15 x_start = 11 y_start = 2 y_end = 6
+in if
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 5
+x_end = 16 x_start = 11 y_start = 2 y_end = 7
+in if
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 6
+x_end = 17 x_start = 11 y_start = 2 y_end = 8
+in if
+x_end = 17 x_start = 11
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 2 y_end = 2
+sq = 7
+x_end = 12 x_start = 12 y_start = 2 y_end = 2
+in if
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 1
+x_end = 13 x_start = 12 y_start = 2 y_end = 3
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 2
+x_end = 14 x_start = 12 y_start = 2 y_end = 4
+in if
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 3
+x_end = 15 x_start = 12 y_start = 2 y_end = 5
+in if
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 4
+x_end = 16 x_start = 12 y_start = 2 y_end = 6
+in if
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 5
+x_end = 17 x_start = 12 y_start = 2 y_end = 7
+in if
+x_end = 17 x_start = 12
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 6
+x_end = 18 x_start = 12 y_start = 2 y_end = 8
+in if
+x_end = 18 x_start = 12
+x_end = 17 x_start = 12
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 2 y_end = 2
+sq = 7
+x_end = 13 x_start = 13 y_start = 2 y_end = 2
+in if
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 1
+x_end = 14 x_start = 13 y_start = 2 y_end = 3
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 2
+x_end = 15 x_start = 13 y_start = 2 y_end = 4
+in if
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 3
+x_end = 16 x_start = 13 y_start = 2 y_end = 5
+in if
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 4
+x_end = 17 x_start = 13 y_start = 2 y_end = 6
+in if
+x_end = 17 x_start = 13
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 5
+x_end = 18 x_start = 13 y_start = 2 y_end = 7
+in if
+x_end = 18 x_start = 13
+x_end = 17 x_start = 13
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 6
+x_end = 19 x_start = 13 y_start = 2 y_end = 8
+in if
+x_end = 19 x_start = 13
+x_end = 18 x_start = 13
+x_end = 17 x_start = 13
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 2 y_end = 2
+sq = 7
+x_end = 14 x_start = 14 y_start = 2 y_end = 2
+in if
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 1
+x_end = 15 x_start = 14 y_start = 2 y_end = 3
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 2
+x_end = 16 x_start = 14 y_start = 2 y_end = 4
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 3
+x_end = 17 x_start = 14 y_start = 2 y_end = 5
+in if
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 4
+x_end = 18 x_start = 14 y_start = 2 y_end = 6
+in if
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 5
+x_end = 19 x_start = 14 y_start = 2 y_end = 7
+in if
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 6
+x_end = 20 x_start = 14 y_start = 2 y_end = 8
+in if
+x_end = 20 x_start = 14
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 2 y_end = 2
+sq = 7
+x_end = 15 x_start = 15 y_start = 2 y_end = 2
+in if
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 1
+x_end = 16 x_start = 15 y_start = 2 y_end = 3
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 2
+x_end = 17 x_start = 15 y_start = 2 y_end = 4
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 3
+x_end = 18 x_start = 15 y_start = 2 y_end = 5
+in if
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 4
+x_end = 19 x_start = 15 y_start = 2 y_end = 6
+in if
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 5
+x_end = 20 x_start = 15 y_start = 2 y_end = 7
+in if
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 6
+x_end = 21 x_start = 15 y_start = 2 y_end = 8
+in if
+x_end = 21 x_start = 15
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 2 y_end = 2
+sq = 7
+x_end = 16 x_start = 16 y_start = 2 y_end = 2
+in if
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 1
+x_end = 17 x_start = 16 y_start = 2 y_end = 3
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 2
+x_end = 18 x_start = 16 y_start = 2 y_end = 4
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 3
+x_end = 19 x_start = 16 y_start = 2 y_end = 5
+in if
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 4
+x_end = 20 x_start = 16 y_start = 2 y_end = 6
+in if
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 5
+x_end = 21 x_start = 16 y_start = 2 y_end = 7
+in if
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 6
+x_end = 22 x_start = 16 y_start = 2 y_end = 8
+in if
+x_end = 22 x_start = 16
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 2 y_end = 2
+sq = 7
+x_end = 17 x_start = 17 y_start = 2 y_end = 2
+in if
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 1
+x_end = 18 x_start = 17 y_start = 2 y_end = 3
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 2
+x_end = 19 x_start = 17 y_start = 2 y_end = 4
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 3
+x_end = 20 x_start = 17 y_start = 2 y_end = 5
+in if
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 4
+x_end = 21 x_start = 17 y_start = 2 y_end = 6
+in if
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 5
+x_end = 22 x_start = 17 y_start = 2 y_end = 7
+in if
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 6
+x_end = 23 x_start = 17 y_start = 2 y_end = 8
+in if
+x_end = 23 x_start = 17
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 2 y_end = 2
+sq = 7
+x_end = 18 x_start = 18 y_start = 2 y_end = 2
+in if
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 1
+x_end = 19 x_start = 18 y_start = 2 y_end = 3
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 2
+x_end = 20 x_start = 18 y_start = 2 y_end = 4
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 3
+x_end = 21 x_start = 18 y_start = 2 y_end = 5
+in if
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 4
+x_end = 22 x_start = 18 y_start = 2 y_end = 6
+in if
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 5
+x_end = 23 x_start = 18 y_start = 2 y_end = 7
+in if
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 6
+x_end = 24 x_start = 18 y_start = 2 y_end = 8
+in if
+x_end = 24 x_start = 18
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 2 y_end = 2
+sq = 7
+x_end = 19 x_start = 19 y_start = 2 y_end = 2
+in if
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 1
+x_end = 20 x_start = 19 y_start = 2 y_end = 3
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 2
+x_end = 21 x_start = 19 y_start = 2 y_end = 4
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 3
+x_end = 22 x_start = 19 y_start = 2 y_end = 5
+in if
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 4
+x_end = 23 x_start = 19 y_start = 2 y_end = 6
+in if
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 5
+x_end = 24 x_start = 19 y_start = 2 y_end = 7
+in if
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 6
+x_end = 25 x_start = 19 y_start = 2 y_end = 8
+in if
+x_end = 25 x_start = 19
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 2 y_end = 2
+sq = 7
+x_end = 20 x_start = 20 y_start = 2 y_end = 2
+in if
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 1
+x_end = 21 x_start = 20 y_start = 2 y_end = 3
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 2
+x_end = 22 x_start = 20 y_start = 2 y_end = 4
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 3
+x_end = 23 x_start = 20 y_start = 2 y_end = 5
+in if
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 4
+x_end = 24 x_start = 20 y_start = 2 y_end = 6
+in if
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 5
+x_end = 25 x_start = 20 y_start = 2 y_end = 7
+in if
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 6
+x_end = 26 x_start = 20 y_start = 2 y_end = 8
+in if
+x_end = 26 x_start = 20
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 2 y_end = 2
+sq = 7
+x_end = 21 x_start = 21 y_start = 2 y_end = 2
+in if
+post while x_end = 21 x_start = 21 y_start = 2 y_end = 2
+sq = 1
+x_end = 22 x_start = 21 y_start = 2 y_end = 3
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 2 y_end = 2
+sq = 2
+x_end = 23 x_start = 21 y_start = 2 y_end = 4
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 2 y_end = 2
+sq = 3
+x_end = 24 x_start = 21 y_start = 2 y_end = 5
+in if
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 2 y_end = 2
+sq = 4
+x_end = 25 x_start = 21 y_start = 2 y_end = 6
+in if
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 2 y_end = 2
+sq = 5
+x_end = 26 x_start = 21 y_start = 2 y_end = 7
+in if
+x_end = 26 x_start = 21
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 2 y_end = 2
+sq = 6
+x_end = 22 x_start = 22 y_start = 2 y_end = 2
+in if
+post while x_end = 22 x_start = 22 y_start = 2 y_end = 2
+sq = 1
+x_end = 23 x_start = 22 y_start = 2 y_end = 3
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 2 y_end = 2
+sq = 2
+x_end = 24 x_start = 22 y_start = 2 y_end = 4
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 2 y_end = 2
+sq = 3
+x_end = 25 x_start = 22 y_start = 2 y_end = 5
+in if
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 2 y_end = 2
+sq = 4
+x_end = 26 x_start = 22 y_start = 2 y_end = 6
+in if
+x_end = 26 x_start = 22
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 2 y_end = 2
+sq = 5
+x_end = 23 x_start = 23 y_start = 2 y_end = 2
+in if
+post while x_end = 23 x_start = 23 y_start = 2 y_end = 2
+sq = 1
+x_end = 24 x_start = 23 y_start = 2 y_end = 3
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 2 y_end = 2
+sq = 2
+x_end = 25 x_start = 23 y_start = 2 y_end = 4
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 2 y_end = 2
+sq = 3
+x_end = 26 x_start = 23 y_start = 2 y_end = 5
+in if
+x_end = 26 x_start = 23
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 2 y_end = 2
+sq = 4
+x_end = 24 x_start = 24 y_start = 2 y_end = 2
+in if
+post while x_end = 24 x_start = 24 y_start = 2 y_end = 2
+sq = 1
+x_end = 25 x_start = 24 y_start = 2 y_end = 3
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 2 y_end = 2
+sq = 2
+x_end = 26 x_start = 24 y_start = 2 y_end = 4
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 2 y_end = 2
+sq = 3
+x_end = 25 x_start = 25 y_start = 2 y_end = 2
+in if
+post while x_end = 25 x_start = 25 y_start = 2 y_end = 2
+sq = 1
+x_end = 26 x_start = 25 y_start = 2 y_end = 3
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 2 y_end = 2
+sq = 2
+x_end = 26 x_start = 26 y_start = 2 y_end = 2
+in if
+post while x_end = 26 x_start = 26 y_start = 2 y_end = 2
+sq = 1
+x_end = 0 x_start = 0 y_start = 3 y_end = 3
+in if
+post while x_end = 0 x_start = 0 y_start = 3 y_end = 3
+sq = 1
+x_end = 1 x_start = 0 y_start = 3 y_end = 4
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 3 y_end = 3
+sq = 2
+x_end = 2 x_start = 0 y_start = 3 y_end = 5
+in if
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 3 y_end = 3
+sq = 3
+x_end = 3 x_start = 0 y_start = 3 y_end = 6
+in if
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 3 y_end = 3
+sq = 4
+x_end = 4 x_start = 0 y_start = 3 y_end = 7
+in if
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 3 y_end = 3
+sq = 5
+x_end = 5 x_start = 0 y_start = 3 y_end = 8
+in if
+x_end = 5 x_start = 0
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+post while x_end = 2 x_start = 0 y_start = 3 y_end = 3
+x_end = 1 x_start = 1 y_start = 3 y_end = 3
+in if
+post while x_end = 1 x_start = 1 y_start = 3 y_end = 3
+sq = 1
+x_end = 2 x_start = 1 y_start = 3 y_end = 4
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 3 y_end = 3
+sq = 2
+x_end = 3 x_start = 1 y_start = 3 y_end = 5
+in if
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 3 y_end = 3
+sq = 3
+x_end = 4 x_start = 1 y_start = 3 y_end = 6
+in if
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 3 y_end = 3
+sq = 4
+x_end = 5 x_start = 1 y_start = 3 y_end = 7
+in if
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 3 y_end = 3
+sq = 5
+x_end = 6 x_start = 1 y_start = 3 y_end = 8
+in if
+x_end = 6 x_start = 1
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+post while x_end = 2 x_start = 1 y_start = 3 y_end = 3
+x_end = 2 x_start = 2 y_start = 3 y_end = 3
+in if
+post while x_end = 2 x_start = 2 y_start = 3 y_end = 3
+sq = 1
+x_end = 3 x_start = 2 y_start = 3 y_end = 4
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 3 y_end = 3
+sq = 2
+x_end = 4 x_start = 2 y_start = 3 y_end = 5
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 3 y_end = 3
+sq = 3
+x_end = 5 x_start = 2 y_start = 3 y_end = 6
+in if
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 3 y_end = 3
+sq = 4
+x_end = 6 x_start = 2 y_start = 3 y_end = 7
+x_end = 3 x_start = 3 y_start = 3 y_end = 3
+in if
+post while x_end = 3 x_start = 3 y_start = 3 y_end = 3
+sq = 1
+x_end = 4 x_start = 3 y_start = 3 y_end = 4
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 3 y_end = 3
+sq = 2
+x_end = 5 x_start = 3 y_start = 3 y_end = 5
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 3 y_end = 3
+sq = 3
+x_end = 6 x_start = 3 y_start = 3 y_end = 6
+in if
+x_end = 6 x_start = 3
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 3 y_end = 3
+sq = 4
+x_end = 7 x_start = 3 y_start = 3 y_end = 7
+in if
+x_end = 7 x_start = 3
+obstcl on y
+post while x_end = 6 x_start = 3 y_start = 3 y_end = 4
+x_end = 4 x_start = 4 y_start = 3 y_end = 3
+in if
+post while x_end = 4 x_start = 4 y_start = 3 y_end = 3
+sq = 1
+x_end = 5 x_start = 4 y_start = 3 y_end = 4
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 3 y_end = 3
+sq = 2
+x_end = 6 x_start = 4 y_start = 3 y_end = 5
+in if
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 3 y_end = 3
+sq = 3
+x_end = 7 x_start = 4 y_start = 3 y_end = 6
+in if
+x_end = 7 x_start = 4
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 3 y_end = 3
+sq = 4
+x_end = 8 x_start = 4 y_start = 3 y_end = 7
+in if
+x_end = 8 x_start = 4
+x_end = 7 x_start = 4
+obstcl on y
+post while x_end = 6 x_start = 4 y_start = 3 y_end = 4
+x_end = 5 x_start = 5 y_start = 3 y_end = 3
+in if
+post while x_end = 5 x_start = 5 y_start = 3 y_end = 3
+sq = 1
+x_end = 6 x_start = 5 y_start = 3 y_end = 4
+x_end = 6 x_start = 6 y_start = 3 y_end = 3
+in if
+post while x_end = 6 x_start = 6 y_start = 3 y_end = 3
+sq = 1
+x_end = 7 x_start = 6 y_start = 3 y_end = 4
+in if
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 3 y_end = 3
+sq = 2
+x_end = 8 x_start = 6 y_start = 3 y_end = 5
+in if
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+obstcl on y
+post while x_end = 6 x_start = 6 y_start = 3 y_end = 4
+x_end = 7 x_start = 7 y_start = 3 y_end = 3
+in if
+post while x_end = 7 x_start = 7 y_start = 3 y_end = 3
+sq = 1
+x_end = 8 x_start = 7 y_start = 3 y_end = 4
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 3 y_end = 3
+sq = 2
+x_end = 9 x_start = 7 y_start = 3 y_end = 5
+in if
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 3 y_end = 3
+sq = 3
+x_end = 10 x_start = 7 y_start = 3 y_end = 6
+in if
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 3 y_end = 3
+sq = 4
+x_end = 11 x_start = 7 y_start = 3 y_end = 7
+in if
+x_end = 11 x_start = 7
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 3 y_end = 3
+sq = 5
+x_end = 12 x_start = 7 y_start = 3 y_end = 8
+in if
+x_end = 12 x_start = 7
+x_end = 11 x_start = 7
+post while x_end = 10 x_start = 7 y_start = 3 y_end = 3
+x_end = 8 x_start = 8 y_start = 3 y_end = 3
+in if
+post while x_end = 8 x_start = 8 y_start = 3 y_end = 3
+sq = 1
+x_end = 9 x_start = 8 y_start = 3 y_end = 4
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 3 y_end = 3
+sq = 2
+x_end = 10 x_start = 8 y_start = 3 y_end = 5
+in if
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 3 y_end = 3
+sq = 3
+x_end = 11 x_start = 8 y_start = 3 y_end = 6
+in if
+x_end = 11 x_start = 8
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 3 y_end = 3
+sq = 4
+x_end = 12 x_start = 8 y_start = 3 y_end = 7
+in if
+x_end = 12 x_start = 8
+x_end = 11 x_start = 8
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 3 y_end = 3
+sq = 5
+x_end = 13 x_start = 8 y_start = 3 y_end = 8
+in if
+x_end = 13 x_start = 8
+x_end = 12 x_start = 8
+x_end = 11 x_start = 8
+post while x_end = 10 x_start = 8 y_start = 3 y_end = 3
+x_end = 9 x_start = 9 y_start = 3 y_end = 3
+in if
+post while x_end = 9 x_start = 9 y_start = 3 y_end = 3
+sq = 1
+x_end = 10 x_start = 9 y_start = 3 y_end = 4
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 3 y_end = 3
+sq = 2
+x_end = 11 x_start = 9 y_start = 3 y_end = 5
+in if
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 3 y_end = 3
+sq = 3
+x_end = 12 x_start = 9 y_start = 3 y_end = 6
+in if
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 3 y_end = 3
+sq = 4
+x_end = 13 x_start = 9 y_start = 3 y_end = 7
+in if
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 3 y_end = 3
+sq = 5
+x_end = 14 x_start = 9 y_start = 3 y_end = 8
+in if
+x_end = 14 x_start = 9
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 3 y_end = 3
+x_end = 10 x_start = 10 y_start = 3 y_end = 3
+in if
+post while x_end = 10 x_start = 10 y_start = 3 y_end = 3
+sq = 1
+x_end = 11 x_start = 10 y_start = 3 y_end = 4
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 3 y_end = 3
+sq = 2
+x_end = 12 x_start = 10 y_start = 3 y_end = 5
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 3 y_end = 3
+sq = 3
+x_end = 13 x_start = 10 y_start = 3 y_end = 6
+in if
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 3 y_end = 3
+sq = 4
+x_end = 14 x_start = 10 y_start = 3 y_end = 7
+in if
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 3 y_end = 3
+sq = 5
+x_end = 15 x_start = 10 y_start = 3 y_end = 8
+in if
+x_end = 15 x_start = 10
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 3 y_end = 3
+sq = 6
+x_end = 11 x_start = 11 y_start = 3 y_end = 3
+in if
+post while x_end = 11 x_start = 11 y_start = 3 y_end = 3
+sq = 1
+x_end = 12 x_start = 11 y_start = 3 y_end = 4
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 3 y_end = 3
+sq = 2
+x_end = 13 x_start = 11 y_start = 3 y_end = 5
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 3 y_end = 3
+sq = 3
+x_end = 14 x_start = 11 y_start = 3 y_end = 6
+in if
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 3 y_end = 3
+sq = 4
+x_end = 15 x_start = 11 y_start = 3 y_end = 7
+in if
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 3 y_end = 3
+sq = 5
+x_end = 16 x_start = 11 y_start = 3 y_end = 8
+in if
+x_end = 16 x_start = 11
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 3 y_end = 3
+sq = 6
+x_end = 12 x_start = 12 y_start = 3 y_end = 3
+in if
+post while x_end = 12 x_start = 12 y_start = 3 y_end = 3
+sq = 1
+x_end = 13 x_start = 12 y_start = 3 y_end = 4
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 3 y_end = 3
+sq = 2
+x_end = 14 x_start = 12 y_start = 3 y_end = 5
+in if
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 3 y_end = 3
+sq = 3
+x_end = 15 x_start = 12 y_start = 3 y_end = 6
+in if
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 3 y_end = 3
+sq = 4
+x_end = 16 x_start = 12 y_start = 3 y_end = 7
+in if
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 3 y_end = 3
+sq = 5
+x_end = 17 x_start = 12 y_start = 3 y_end = 8
+in if
+x_end = 17 x_start = 12
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 3 y_end = 3
+sq = 6
+x_end = 13 x_start = 13 y_start = 3 y_end = 3
+in if
+post while x_end = 13 x_start = 13 y_start = 3 y_end = 3
+sq = 1
+x_end = 14 x_start = 13 y_start = 3 y_end = 4
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 3 y_end = 3
+sq = 2
+x_end = 15 x_start = 13 y_start = 3 y_end = 5
+in if
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 3 y_end = 3
+sq = 3
+x_end = 16 x_start = 13 y_start = 3 y_end = 6
+in if
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 3 y_end = 3
+sq = 4
+x_end = 17 x_start = 13 y_start = 3 y_end = 7
+in if
+x_end = 17 x_start = 13
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 3 y_end = 3
+sq = 5
+x_end = 18 x_start = 13 y_start = 3 y_end = 8
+in if
+x_end = 18 x_start = 13
+x_end = 17 x_start = 13
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 3 y_end = 3
+sq = 6
+x_end = 14 x_start = 14 y_start = 3 y_end = 3
+in if
+post while x_end = 14 x_start = 14 y_start = 3 y_end = 3
+sq = 1
+x_end = 15 x_start = 14 y_start = 3 y_end = 4
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 3 y_end = 3
+sq = 2
+x_end = 16 x_start = 14 y_start = 3 y_end = 5
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 3 y_end = 3
+sq = 3
+x_end = 17 x_start = 14 y_start = 3 y_end = 6
+in if
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 3 y_end = 3
+sq = 4
+x_end = 18 x_start = 14 y_start = 3 y_end = 7
+in if
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 3 y_end = 3
+sq = 5
+x_end = 19 x_start = 14 y_start = 3 y_end = 8
+in if
+x_end = 19 x_start = 14
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 3 y_end = 3
+sq = 6
+x_end = 15 x_start = 15 y_start = 3 y_end = 3
+in if
+post while x_end = 15 x_start = 15 y_start = 3 y_end = 3
+sq = 1
+x_end = 16 x_start = 15 y_start = 3 y_end = 4
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 3 y_end = 3
+sq = 2
+x_end = 17 x_start = 15 y_start = 3 y_end = 5
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 3 y_end = 3
+sq = 3
+x_end = 18 x_start = 15 y_start = 3 y_end = 6
+in if
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 3 y_end = 3
+sq = 4
+x_end = 19 x_start = 15 y_start = 3 y_end = 7
+in if
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 3 y_end = 3
+sq = 5
+x_end = 20 x_start = 15 y_start = 3 y_end = 8
+in if
+x_end = 20 x_start = 15
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 3 y_end = 3
+sq = 6
+x_end = 16 x_start = 16 y_start = 3 y_end = 3
+in if
+post while x_end = 16 x_start = 16 y_start = 3 y_end = 3
+sq = 1
+x_end = 17 x_start = 16 y_start = 3 y_end = 4
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 3 y_end = 3
+sq = 2
+x_end = 18 x_start = 16 y_start = 3 y_end = 5
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 3 y_end = 3
+sq = 3
+x_end = 19 x_start = 16 y_start = 3 y_end = 6
+in if
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 3 y_end = 3
+sq = 4
+x_end = 20 x_start = 16 y_start = 3 y_end = 7
+in if
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 3 y_end = 3
+sq = 5
+x_end = 21 x_start = 16 y_start = 3 y_end = 8
+in if
+x_end = 21 x_start = 16
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 3 y_end = 3
+sq = 6
+x_end = 17 x_start = 17 y_start = 3 y_end = 3
+in if
+post while x_end = 17 x_start = 17 y_start = 3 y_end = 3
+sq = 1
+x_end = 18 x_start = 17 y_start = 3 y_end = 4
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 3 y_end = 3
+sq = 2
+x_end = 19 x_start = 17 y_start = 3 y_end = 5
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 3 y_end = 3
+sq = 3
+x_end = 20 x_start = 17 y_start = 3 y_end = 6
+in if
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 3 y_end = 3
+sq = 4
+x_end = 21 x_start = 17 y_start = 3 y_end = 7
+in if
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 3 y_end = 3
+sq = 5
+x_end = 22 x_start = 17 y_start = 3 y_end = 8
+in if
+x_end = 22 x_start = 17
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 3 y_end = 3
+sq = 6
+x_end = 18 x_start = 18 y_start = 3 y_end = 3
+in if
+post while x_end = 18 x_start = 18 y_start = 3 y_end = 3
+sq = 1
+x_end = 19 x_start = 18 y_start = 3 y_end = 4
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 3 y_end = 3
+sq = 2
+x_end = 20 x_start = 18 y_start = 3 y_end = 5
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 3 y_end = 3
+sq = 3
+x_end = 21 x_start = 18 y_start = 3 y_end = 6
+in if
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 3 y_end = 3
+sq = 4
+x_end = 22 x_start = 18 y_start = 3 y_end = 7
+in if
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 3 y_end = 3
+sq = 5
+x_end = 23 x_start = 18 y_start = 3 y_end = 8
+in if
+x_end = 23 x_start = 18
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 3 y_end = 3
+sq = 6
+x_end = 19 x_start = 19 y_start = 3 y_end = 3
+in if
+post while x_end = 19 x_start = 19 y_start = 3 y_end = 3
+sq = 1
+x_end = 20 x_start = 19 y_start = 3 y_end = 4
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 3 y_end = 3
+sq = 2
+x_end = 21 x_start = 19 y_start = 3 y_end = 5
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 3 y_end = 3
+sq = 3
+x_end = 22 x_start = 19 y_start = 3 y_end = 6
+in if
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 3 y_end = 3
+sq = 4
+x_end = 23 x_start = 19 y_start = 3 y_end = 7
+in if
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 3 y_end = 3
+sq = 5
+x_end = 24 x_start = 19 y_start = 3 y_end = 8
+in if
+x_end = 24 x_start = 19
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 3 y_end = 3
+sq = 6
+x_end = 20 x_start = 20 y_start = 3 y_end = 3
+in if
+post while x_end = 20 x_start = 20 y_start = 3 y_end = 3
+sq = 1
+x_end = 21 x_start = 20 y_start = 3 y_end = 4
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 3 y_end = 3
+sq = 2
+x_end = 22 x_start = 20 y_start = 3 y_end = 5
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 3 y_end = 3
+sq = 3
+x_end = 23 x_start = 20 y_start = 3 y_end = 6
+in if
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 3 y_end = 3
+sq = 4
+x_end = 24 x_start = 20 y_start = 3 y_end = 7
+in if
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 3 y_end = 3
+sq = 5
+x_end = 25 x_start = 20 y_start = 3 y_end = 8
+in if
+x_end = 25 x_start = 20
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 3 y_end = 3
+sq = 6
+x_end = 21 x_start = 21 y_start = 3 y_end = 3
+in if
+post while x_end = 21 x_start = 21 y_start = 3 y_end = 3
+sq = 1
+x_end = 22 x_start = 21 y_start = 3 y_end = 4
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 3 y_end = 3
+sq = 2
+x_end = 23 x_start = 21 y_start = 3 y_end = 5
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 3 y_end = 3
+sq = 3
+x_end = 24 x_start = 21 y_start = 3 y_end = 6
+in if
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 3 y_end = 3
+sq = 4
+x_end = 25 x_start = 21 y_start = 3 y_end = 7
+in if
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 3 y_end = 3
+sq = 5
+x_end = 26 x_start = 21 y_start = 3 y_end = 8
+in if
+x_end = 26 x_start = 21
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 3 y_end = 3
+sq = 6
+x_end = 22 x_start = 22 y_start = 3 y_end = 3
+in if
+post while x_end = 22 x_start = 22 y_start = 3 y_end = 3
+sq = 1
+x_end = 23 x_start = 22 y_start = 3 y_end = 4
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 3 y_end = 3
+sq = 2
+x_end = 24 x_start = 22 y_start = 3 y_end = 5
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 3 y_end = 3
+sq = 3
+x_end = 25 x_start = 22 y_start = 3 y_end = 6
+in if
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 3 y_end = 3
+sq = 4
+x_end = 26 x_start = 22 y_start = 3 y_end = 7
+in if
+x_end = 26 x_start = 22
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 3 y_end = 3
+sq = 5
+x_end = 23 x_start = 23 y_start = 3 y_end = 3
+in if
+post while x_end = 23 x_start = 23 y_start = 3 y_end = 3
+sq = 1
+x_end = 24 x_start = 23 y_start = 3 y_end = 4
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 3 y_end = 3
+sq = 2
+x_end = 25 x_start = 23 y_start = 3 y_end = 5
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 3 y_end = 3
+sq = 3
+x_end = 26 x_start = 23 y_start = 3 y_end = 6
+in if
+x_end = 26 x_start = 23
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 3 y_end = 3
+sq = 4
+x_end = 24 x_start = 24 y_start = 3 y_end = 3
+in if
+post while x_end = 24 x_start = 24 y_start = 3 y_end = 3
+sq = 1
+x_end = 25 x_start = 24 y_start = 3 y_end = 4
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 3 y_end = 3
+sq = 2
+x_end = 26 x_start = 24 y_start = 3 y_end = 5
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 3 y_end = 3
+sq = 3
+x_end = 25 x_start = 25 y_start = 3 y_end = 3
+in if
+post while x_end = 25 x_start = 25 y_start = 3 y_end = 3
+sq = 1
+x_end = 26 x_start = 25 y_start = 3 y_end = 4
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 3 y_end = 3
+sq = 2
+x_end = 26 x_start = 26 y_start = 3 y_end = 3
+in if
+post while x_end = 26 x_start = 26 y_start = 3 y_end = 3
+sq = 1
+x_end = 0 x_start = 0 y_start = 4 y_end = 4
+in if
+post while x_end = 0 x_start = 0 y_start = 4 y_end = 4
+sq = 1
+x_end = 1 x_start = 0 y_start = 4 y_end = 5
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 4 y_end = 4
+sq = 2
+x_end = 2 x_start = 0 y_start = 4 y_end = 6
+in if
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 4 y_end = 4
+sq = 3
+x_end = 3 x_start = 0 y_start = 4 y_end = 7
+in if
+x_end = 3 x_start = 0
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 4 y_end = 4
+sq = 4
+x_end = 4 x_start = 0 y_start = 4 y_end = 8
+in if
+x_end = 4 x_start = 0
+x_end = 3 x_start = 0
+post while x_end = 2 x_start = 0 y_start = 4 y_end = 4
+x_end = 1 x_start = 1 y_start = 4 y_end = 4
+in if
+post while x_end = 1 x_start = 1 y_start = 4 y_end = 4
+sq = 1
+x_end = 2 x_start = 1 y_start = 4 y_end = 5
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 4 y_end = 4
+sq = 2
+x_end = 3 x_start = 1 y_start = 4 y_end = 6
+in if
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 4 y_end = 4
+sq = 3
+x_end = 4 x_start = 1 y_start = 4 y_end = 7
+in if
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 4 y_end = 4
+sq = 4
+x_end = 5 x_start = 1 y_start = 4 y_end = 8
+in if
+x_end = 5 x_start = 1
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+post while x_end = 2 x_start = 1 y_start = 4 y_end = 4
+x_end = 2 x_start = 2 y_start = 4 y_end = 4
+in if
+post while x_end = 2 x_start = 2 y_start = 4 y_end = 4
+sq = 1
+x_end = 3 x_start = 2 y_start = 4 y_end = 5
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 4 y_end = 4
+sq = 2
+x_end = 4 x_start = 2 y_start = 4 y_end = 6
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 4 y_end = 4
+sq = 3
+x_end = 5 x_start = 2 y_start = 4 y_end = 7
+in if
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 4 y_end = 4
+sq = 4
+x_end = 6 x_start = 2 y_start = 4 y_end = 8
+in if
+x_end = 6 x_start = 2
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 4 y_end = 4
+sq = 5
+x_end = 3 x_start = 3 y_start = 4 y_end = 4
+in if
+post while x_end = 3 x_start = 3 y_start = 4 y_end = 4
+sq = 1
+x_end = 4 x_start = 3 y_start = 4 y_end = 5
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 4 y_end = 4
+sq = 2
+x_end = 5 x_start = 3 y_start = 4 y_end = 6
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 4 y_end = 4
+sq = 3
+x_end = 6 x_start = 3 y_start = 4 y_end = 7
+x_end = 4 x_start = 4 y_start = 4 y_end = 4
+in if
+post while x_end = 4 x_start = 4 y_start = 4 y_end = 4
+sq = 1
+x_end = 5 x_start = 4 y_start = 4 y_end = 5
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 4 y_end = 4
+sq = 2
+x_end = 6 x_start = 4 y_start = 4 y_end = 6
+in if
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 4 y_end = 4
+sq = 3
+x_end = 7 x_start = 4 y_start = 4 y_end = 7
+in if
+x_end = 7 x_start = 4
+obstcl on y
+post while x_end = 6 x_start = 4 y_start = 4 y_end = 4
+x_end = 5 x_start = 5 y_start = 4 y_end = 4
+in if
+post while x_end = 5 x_start = 5 y_start = 4 y_end = 4
+sq = 1
+x_end = 6 x_start = 5 y_start = 4 y_end = 5
+in if
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 4 y_end = 4
+sq = 2
+x_end = 7 x_start = 5 y_start = 4 y_end = 6
+in if
+x_end = 7 x_start = 5
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 4 y_end = 4
+sq = 3
+x_end = 8 x_start = 5 y_start = 4 y_end = 7
+in if
+x_end = 8 x_start = 5
+x_end = 7 x_start = 5
+obstcl on y
+post while x_end = 6 x_start = 5 y_start = 4 y_end = 4
+x_end = 6 x_start = 6 y_start = 4 y_end = 4
+x_end = 7 x_start = 7 y_start = 4 y_end = 4
+in if
+post while x_end = 7 x_start = 7 y_start = 4 y_end = 4
+sq = 1
+x_end = 8 x_start = 7 y_start = 4 y_end = 5
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 4 y_end = 4
+sq = 2
+x_end = 9 x_start = 7 y_start = 4 y_end = 6
+in if
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 4 y_end = 4
+sq = 3
+x_end = 10 x_start = 7 y_start = 4 y_end = 7
+in if
+x_end = 10 x_start = 7
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 4 y_end = 4
+sq = 4
+x_end = 11 x_start = 7 y_start = 4 y_end = 8
+in if
+x_end = 11 x_start = 7
+post while x_end = 10 x_start = 7 y_start = 4 y_end = 4
+x_end = 8 x_start = 8 y_start = 4 y_end = 4
+in if
+post while x_end = 8 x_start = 8 y_start = 4 y_end = 4
+sq = 1
+x_end = 9 x_start = 8 y_start = 4 y_end = 5
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 4 y_end = 4
+sq = 2
+x_end = 10 x_start = 8 y_start = 4 y_end = 6
+in if
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 4 y_end = 4
+sq = 3
+x_end = 11 x_start = 8 y_start = 4 y_end = 7
+in if
+x_end = 11 x_start = 8
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 4 y_end = 4
+sq = 4
+x_end = 12 x_start = 8 y_start = 4 y_end = 8
+in if
+x_end = 12 x_start = 8
+x_end = 11 x_start = 8
+post while x_end = 10 x_start = 8 y_start = 4 y_end = 4
+x_end = 9 x_start = 9 y_start = 4 y_end = 4
+in if
+post while x_end = 9 x_start = 9 y_start = 4 y_end = 4
+sq = 1
+x_end = 10 x_start = 9 y_start = 4 y_end = 5
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 4 y_end = 4
+sq = 2
+x_end = 11 x_start = 9 y_start = 4 y_end = 6
+in if
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 4 y_end = 4
+sq = 3
+x_end = 12 x_start = 9 y_start = 4 y_end = 7
+in if
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 4 y_end = 4
+sq = 4
+x_end = 13 x_start = 9 y_start = 4 y_end = 8
+in if
+x_end = 13 x_start = 9
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 4 y_end = 4
+x_end = 10 x_start = 10 y_start = 4 y_end = 4
+in if
+post while x_end = 10 x_start = 10 y_start = 4 y_end = 4
+sq = 1
+x_end = 11 x_start = 10 y_start = 4 y_end = 5
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 4 y_end = 4
+sq = 2
+x_end = 12 x_start = 10 y_start = 4 y_end = 6
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 4 y_end = 4
+sq = 3
+x_end = 13 x_start = 10 y_start = 4 y_end = 7
+in if
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 4 y_end = 4
+sq = 4
+x_end = 14 x_start = 10 y_start = 4 y_end = 8
+in if
+x_end = 14 x_start = 10
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 4 y_end = 4
+sq = 5
+x_end = 11 x_start = 11 y_start = 4 y_end = 4
+in if
+post while x_end = 11 x_start = 11 y_start = 4 y_end = 4
+sq = 1
+x_end = 12 x_start = 11 y_start = 4 y_end = 5
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 4 y_end = 4
+sq = 2
+x_end = 13 x_start = 11 y_start = 4 y_end = 6
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 4 y_end = 4
+sq = 3
+x_end = 14 x_start = 11 y_start = 4 y_end = 7
+in if
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 4 y_end = 4
+sq = 4
+x_end = 15 x_start = 11 y_start = 4 y_end = 8
+in if
+x_end = 15 x_start = 11
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 4 y_end = 4
+sq = 5
+x_end = 12 x_start = 12 y_start = 4 y_end = 4
+in if
+post while x_end = 12 x_start = 12 y_start = 4 y_end = 4
+sq = 1
+x_end = 13 x_start = 12 y_start = 4 y_end = 5
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 4 y_end = 4
+sq = 2
+x_end = 14 x_start = 12 y_start = 4 y_end = 6
+in if
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 4 y_end = 4
+sq = 3
+x_end = 15 x_start = 12 y_start = 4 y_end = 7
+in if
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 4 y_end = 4
+sq = 4
+x_end = 16 x_start = 12 y_start = 4 y_end = 8
+in if
+x_end = 16 x_start = 12
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 4 y_end = 4
+sq = 5
+x_end = 13 x_start = 13 y_start = 4 y_end = 4
+in if
+post while x_end = 13 x_start = 13 y_start = 4 y_end = 4
+sq = 1
+x_end = 14 x_start = 13 y_start = 4 y_end = 5
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 4 y_end = 4
+sq = 2
+x_end = 15 x_start = 13 y_start = 4 y_end = 6
+in if
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 4 y_end = 4
+sq = 3
+x_end = 16 x_start = 13 y_start = 4 y_end = 7
+in if
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 4 y_end = 4
+sq = 4
+x_end = 17 x_start = 13 y_start = 4 y_end = 8
+in if
+x_end = 17 x_start = 13
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 4 y_end = 4
+sq = 5
+x_end = 14 x_start = 14 y_start = 4 y_end = 4
+in if
+post while x_end = 14 x_start = 14 y_start = 4 y_end = 4
+sq = 1
+x_end = 15 x_start = 14 y_start = 4 y_end = 5
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 4 y_end = 4
+sq = 2
+x_end = 16 x_start = 14 y_start = 4 y_end = 6
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 4 y_end = 4
+sq = 3
+x_end = 17 x_start = 14 y_start = 4 y_end = 7
+in if
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 4 y_end = 4
+sq = 4
+x_end = 18 x_start = 14 y_start = 4 y_end = 8
+in if
+x_end = 18 x_start = 14
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 4 y_end = 4
+sq = 5
+x_end = 15 x_start = 15 y_start = 4 y_end = 4
+in if
+post while x_end = 15 x_start = 15 y_start = 4 y_end = 4
+sq = 1
+x_end = 16 x_start = 15 y_start = 4 y_end = 5
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 4 y_end = 4
+sq = 2
+x_end = 17 x_start = 15 y_start = 4 y_end = 6
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 4 y_end = 4
+sq = 3
+x_end = 18 x_start = 15 y_start = 4 y_end = 7
+in if
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 4 y_end = 4
+sq = 4
+x_end = 19 x_start = 15 y_start = 4 y_end = 8
+in if
+x_end = 19 x_start = 15
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 4 y_end = 4
+sq = 5
+x_end = 16 x_start = 16 y_start = 4 y_end = 4
+in if
+post while x_end = 16 x_start = 16 y_start = 4 y_end = 4
+sq = 1
+x_end = 17 x_start = 16 y_start = 4 y_end = 5
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 4 y_end = 4
+sq = 2
+x_end = 18 x_start = 16 y_start = 4 y_end = 6
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 4 y_end = 4
+sq = 3
+x_end = 19 x_start = 16 y_start = 4 y_end = 7
+in if
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 4 y_end = 4
+sq = 4
+x_end = 20 x_start = 16 y_start = 4 y_end = 8
+in if
+x_end = 20 x_start = 16
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 4 y_end = 4
+sq = 5
+x_end = 17 x_start = 17 y_start = 4 y_end = 4
+in if
+post while x_end = 17 x_start = 17 y_start = 4 y_end = 4
+sq = 1
+x_end = 18 x_start = 17 y_start = 4 y_end = 5
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 4 y_end = 4
+sq = 2
+x_end = 19 x_start = 17 y_start = 4 y_end = 6
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 4 y_end = 4
+sq = 3
+x_end = 20 x_start = 17 y_start = 4 y_end = 7
+in if
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 4 y_end = 4
+sq = 4
+x_end = 21 x_start = 17 y_start = 4 y_end = 8
+in if
+x_end = 21 x_start = 17
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 4 y_end = 4
+sq = 5
+x_end = 18 x_start = 18 y_start = 4 y_end = 4
+in if
+post while x_end = 18 x_start = 18 y_start = 4 y_end = 4
+sq = 1
+x_end = 19 x_start = 18 y_start = 4 y_end = 5
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 4 y_end = 4
+sq = 2
+x_end = 20 x_start = 18 y_start = 4 y_end = 6
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 4 y_end = 4
+sq = 3
+x_end = 21 x_start = 18 y_start = 4 y_end = 7
+in if
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 4 y_end = 4
+sq = 4
+x_end = 22 x_start = 18 y_start = 4 y_end = 8
+in if
+x_end = 22 x_start = 18
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 4 y_end = 4
+sq = 5
+x_end = 19 x_start = 19 y_start = 4 y_end = 4
+in if
+post while x_end = 19 x_start = 19 y_start = 4 y_end = 4
+sq = 1
+x_end = 20 x_start = 19 y_start = 4 y_end = 5
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 4 y_end = 4
+sq = 2
+x_end = 21 x_start = 19 y_start = 4 y_end = 6
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 4 y_end = 4
+sq = 3
+x_end = 22 x_start = 19 y_start = 4 y_end = 7
+in if
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 4 y_end = 4
+sq = 4
+x_end = 23 x_start = 19 y_start = 4 y_end = 8
+in if
+x_end = 23 x_start = 19
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 4 y_end = 4
+sq = 5
+x_end = 20 x_start = 20 y_start = 4 y_end = 4
+in if
+post while x_end = 20 x_start = 20 y_start = 4 y_end = 4
+sq = 1
+x_end = 21 x_start = 20 y_start = 4 y_end = 5
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 4 y_end = 4
+sq = 2
+x_end = 22 x_start = 20 y_start = 4 y_end = 6
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 4 y_end = 4
+sq = 3
+x_end = 23 x_start = 20 y_start = 4 y_end = 7
+in if
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 4 y_end = 4
+sq = 4
+x_end = 24 x_start = 20 y_start = 4 y_end = 8
+in if
+x_end = 24 x_start = 20
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 4 y_end = 4
+sq = 5
+x_end = 21 x_start = 21 y_start = 4 y_end = 4
+in if
+post while x_end = 21 x_start = 21 y_start = 4 y_end = 4
+sq = 1
+x_end = 22 x_start = 21 y_start = 4 y_end = 5
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 4 y_end = 4
+sq = 2
+x_end = 23 x_start = 21 y_start = 4 y_end = 6
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 4 y_end = 4
+sq = 3
+x_end = 24 x_start = 21 y_start = 4 y_end = 7
+in if
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 4 y_end = 4
+sq = 4
+x_end = 25 x_start = 21 y_start = 4 y_end = 8
+in if
+x_end = 25 x_start = 21
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 4 y_end = 4
+sq = 5
+x_end = 22 x_start = 22 y_start = 4 y_end = 4
+in if
+post while x_end = 22 x_start = 22 y_start = 4 y_end = 4
+sq = 1
+x_end = 23 x_start = 22 y_start = 4 y_end = 5
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 4 y_end = 4
+sq = 2
+x_end = 24 x_start = 22 y_start = 4 y_end = 6
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 4 y_end = 4
+sq = 3
+x_end = 25 x_start = 22 y_start = 4 y_end = 7
+in if
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 4 y_end = 4
+sq = 4
+x_end = 26 x_start = 22 y_start = 4 y_end = 8
+in if
+x_end = 26 x_start = 22
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 4 y_end = 4
+sq = 5
+x_end = 23 x_start = 23 y_start = 4 y_end = 4
+in if
+post while x_end = 23 x_start = 23 y_start = 4 y_end = 4
+sq = 1
+x_end = 24 x_start = 23 y_start = 4 y_end = 5
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 4 y_end = 4
+sq = 2
+x_end = 25 x_start = 23 y_start = 4 y_end = 6
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 4 y_end = 4
+sq = 3
+x_end = 26 x_start = 23 y_start = 4 y_end = 7
+in if
+x_end = 26 x_start = 23
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 4 y_end = 4
+sq = 4
+x_end = 24 x_start = 24 y_start = 4 y_end = 4
+in if
+post while x_end = 24 x_start = 24 y_start = 4 y_end = 4
+sq = 1
+x_end = 25 x_start = 24 y_start = 4 y_end = 5
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 4 y_end = 4
+sq = 2
+x_end = 26 x_start = 24 y_start = 4 y_end = 6
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 4 y_end = 4
+sq = 3
+x_end = 25 x_start = 25 y_start = 4 y_end = 4
+in if
+post while x_end = 25 x_start = 25 y_start = 4 y_end = 4
+sq = 1
+x_end = 26 x_start = 25 y_start = 4 y_end = 5
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 4 y_end = 4
+sq = 2
+x_end = 26 x_start = 26 y_start = 4 y_end = 4
+in if
+post while x_end = 26 x_start = 26 y_start = 4 y_end = 4
+sq = 1
+x_end = 0 x_start = 0 y_start = 5 y_end = 5
+in if
+post while x_end = 0 x_start = 0 y_start = 5 y_end = 5
+sq = 1
+x_end = 1 x_start = 0 y_start = 5 y_end = 6
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 5 y_end = 5
+sq = 2
+x_end = 2 x_start = 0 y_start = 5 y_end = 7
+in if
+x_end = 2 x_start = 0
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 5 y_end = 5
+sq = 3
+x_end = 3 x_start = 0 y_start = 5 y_end = 8
+in if
+x_end = 3 x_start = 0
+post while x_end = 2 x_start = 0 y_start = 5 y_end = 5
+x_end = 1 x_start = 1 y_start = 5 y_end = 5
+in if
+post while x_end = 1 x_start = 1 y_start = 5 y_end = 5
+sq = 1
+x_end = 2 x_start = 1 y_start = 5 y_end = 6
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 5 y_end = 5
+sq = 2
+x_end = 3 x_start = 1 y_start = 5 y_end = 7
+in if
+x_end = 3 x_start = 1
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 5 y_end = 5
+sq = 3
+x_end = 4 x_start = 1 y_start = 5 y_end = 8
+in if
+x_end = 4 x_start = 1
+x_end = 3 x_start = 1
+post while x_end = 2 x_start = 1 y_start = 5 y_end = 5
+x_end = 2 x_start = 2 y_start = 5 y_end = 5
+in if
+post while x_end = 2 x_start = 2 y_start = 5 y_end = 5
+sq = 1
+x_end = 3 x_start = 2 y_start = 5 y_end = 6
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 5 y_end = 5
+sq = 2
+x_end = 4 x_start = 2 y_start = 5 y_end = 7
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 5 y_end = 5
+sq = 3
+x_end = 5 x_start = 2 y_start = 5 y_end = 8
+in if
+x_end = 5 x_start = 2
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 5 y_end = 5
+sq = 4
+x_end = 3 x_start = 3 y_start = 5 y_end = 5
+in if
+post while x_end = 3 x_start = 3 y_start = 5 y_end = 5
+sq = 1
+x_end = 4 x_start = 3 y_start = 5 y_end = 6
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 5 y_end = 5
+sq = 2
+x_end = 5 x_start = 3 y_start = 5 y_end = 7
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 5 y_end = 5
+sq = 3
+x_end = 6 x_start = 3 y_start = 5 y_end = 8
+in if
+x_end = 6 x_start = 3
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 5 y_end = 5
+sq = 4
+x_end = 4 x_start = 4 y_start = 5 y_end = 5
+in if
+post while x_end = 4 x_start = 4 y_start = 5 y_end = 5
+sq = 1
+x_end = 5 x_start = 4 y_start = 5 y_end = 6
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 5 y_end = 5
+sq = 2
+x_end = 6 x_start = 4 y_start = 5 y_end = 7
+x_end = 5 x_start = 5 y_start = 5 y_end = 5
+in if
+post while x_end = 5 x_start = 5 y_start = 5 y_end = 5
+sq = 1
+x_end = 6 x_start = 5 y_start = 5 y_end = 6
+in if
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 5 y_end = 5
+sq = 2
+x_end = 7 x_start = 5 y_start = 5 y_end = 7
+in if
+x_end = 7 x_start = 5
+post while x_end = 6 x_start = 5 y_start = 5 y_end = 5
+x_end = 6 x_start = 6 y_start = 5 y_end = 5
+in if
+post while x_end = 6 x_start = 6 y_start = 5 y_end = 5
+sq = 1
+x_end = 7 x_start = 6 y_start = 5 y_end = 6
+in if
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 5 y_end = 5
+sq = 2
+x_end = 8 x_start = 6 y_start = 5 y_end = 7
+in if
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 5 y_end = 5
+sq = 3
+x_end = 9 x_start = 6 y_start = 5 y_end = 8
+in if
+x_end = 9 x_start = 6
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+obstcl on y
+post while x_end = 6 x_start = 6 y_start = 5 y_end = 7
+x_end = 7 x_start = 7 y_start = 5 y_end = 5
+in if
+post while x_end = 7 x_start = 7 y_start = 5 y_end = 5
+sq = 1
+x_end = 8 x_start = 7 y_start = 5 y_end = 6
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 5 y_end = 5
+sq = 2
+x_end = 9 x_start = 7 y_start = 5 y_end = 7
+in if
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 5 y_end = 5
+sq = 3
+x_end = 10 x_start = 7 y_start = 5 y_end = 8
+x_end = 8 x_start = 8 y_start = 5 y_end = 5
+in if
+post while x_end = 8 x_start = 8 y_start = 5 y_end = 5
+sq = 1
+x_end = 9 x_start = 8 y_start = 5 y_end = 6
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 5 y_end = 5
+sq = 2
+x_end = 10 x_start = 8 y_start = 5 y_end = 7
+in if
+x_end = 10 x_start = 8
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 5 y_end = 5
+sq = 3
+x_end = 11 x_start = 8 y_start = 5 y_end = 8
+in if
+x_end = 11 x_start = 8
+post while x_end = 10 x_start = 8 y_start = 5 y_end = 5
+x_end = 9 x_start = 9 y_start = 5 y_end = 5
+in if
+post while x_end = 9 x_start = 9 y_start = 5 y_end = 5
+sq = 1
+x_end = 10 x_start = 9 y_start = 5 y_end = 6
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 5 y_end = 5
+sq = 2
+x_end = 11 x_start = 9 y_start = 5 y_end = 7
+in if
+x_end = 11 x_start = 9
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 5 y_end = 5
+sq = 3
+x_end = 12 x_start = 9 y_start = 5 y_end = 8
+in if
+x_end = 12 x_start = 9
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 5 y_end = 5
+x_end = 10 x_start = 10 y_start = 5 y_end = 5
+in if
+post while x_end = 10 x_start = 10 y_start = 5 y_end = 5
+sq = 1
+x_end = 11 x_start = 10 y_start = 5 y_end = 6
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 5 y_end = 5
+sq = 2
+x_end = 12 x_start = 10 y_start = 5 y_end = 7
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 5 y_end = 5
+sq = 3
+x_end = 13 x_start = 10 y_start = 5 y_end = 8
+in if
+x_end = 13 x_start = 10
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 5 y_end = 5
+sq = 4
+x_end = 11 x_start = 11 y_start = 5 y_end = 5
+in if
+post while x_end = 11 x_start = 11 y_start = 5 y_end = 5
+sq = 1
+x_end = 12 x_start = 11 y_start = 5 y_end = 6
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 5 y_end = 5
+sq = 2
+x_end = 13 x_start = 11 y_start = 5 y_end = 7
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 5 y_end = 5
+sq = 3
+x_end = 14 x_start = 11 y_start = 5 y_end = 8
+in if
+x_end = 14 x_start = 11
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 5 y_end = 5
+sq = 4
+x_end = 12 x_start = 12 y_start = 5 y_end = 5
+in if
+post while x_end = 12 x_start = 12 y_start = 5 y_end = 5
+sq = 1
+x_end = 13 x_start = 12 y_start = 5 y_end = 6
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 5 y_end = 5
+sq = 2
+x_end = 14 x_start = 12 y_start = 5 y_end = 7
+in if
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 5 y_end = 5
+sq = 3
+x_end = 15 x_start = 12 y_start = 5 y_end = 8
+in if
+x_end = 15 x_start = 12
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 5 y_end = 5
+sq = 4
+x_end = 13 x_start = 13 y_start = 5 y_end = 5
+in if
+post while x_end = 13 x_start = 13 y_start = 5 y_end = 5
+sq = 1
+x_end = 14 x_start = 13 y_start = 5 y_end = 6
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 5 y_end = 5
+sq = 2
+x_end = 15 x_start = 13 y_start = 5 y_end = 7
+in if
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 5 y_end = 5
+sq = 3
+x_end = 16 x_start = 13 y_start = 5 y_end = 8
+in if
+x_end = 16 x_start = 13
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 5 y_end = 5
+sq = 4
+x_end = 14 x_start = 14 y_start = 5 y_end = 5
+in if
+post while x_end = 14 x_start = 14 y_start = 5 y_end = 5
+sq = 1
+x_end = 15 x_start = 14 y_start = 5 y_end = 6
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 5 y_end = 5
+sq = 2
+x_end = 16 x_start = 14 y_start = 5 y_end = 7
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 5 y_end = 5
+sq = 3
+x_end = 17 x_start = 14 y_start = 5 y_end = 8
+in if
+x_end = 17 x_start = 14
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 5 y_end = 5
+sq = 4
+x_end = 15 x_start = 15 y_start = 5 y_end = 5
+in if
+post while x_end = 15 x_start = 15 y_start = 5 y_end = 5
+sq = 1
+x_end = 16 x_start = 15 y_start = 5 y_end = 6
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 5 y_end = 5
+sq = 2
+x_end = 17 x_start = 15 y_start = 5 y_end = 7
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 5 y_end = 5
+sq = 3
+x_end = 18 x_start = 15 y_start = 5 y_end = 8
+in if
+x_end = 18 x_start = 15
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 5 y_end = 5
+sq = 4
+x_end = 16 x_start = 16 y_start = 5 y_end = 5
+in if
+post while x_end = 16 x_start = 16 y_start = 5 y_end = 5
+sq = 1
+x_end = 17 x_start = 16 y_start = 5 y_end = 6
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 5 y_end = 5
+sq = 2
+x_end = 18 x_start = 16 y_start = 5 y_end = 7
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 5 y_end = 5
+sq = 3
+x_end = 19 x_start = 16 y_start = 5 y_end = 8
+in if
+x_end = 19 x_start = 16
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 5 y_end = 5
+sq = 4
+x_end = 17 x_start = 17 y_start = 5 y_end = 5
+in if
+post while x_end = 17 x_start = 17 y_start = 5 y_end = 5
+sq = 1
+x_end = 18 x_start = 17 y_start = 5 y_end = 6
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 5 y_end = 5
+sq = 2
+x_end = 19 x_start = 17 y_start = 5 y_end = 7
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 5 y_end = 5
+sq = 3
+x_end = 20 x_start = 17 y_start = 5 y_end = 8
+in if
+x_end = 20 x_start = 17
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 5 y_end = 5
+sq = 4
+x_end = 18 x_start = 18 y_start = 5 y_end = 5
+in if
+post while x_end = 18 x_start = 18 y_start = 5 y_end = 5
+sq = 1
+x_end = 19 x_start = 18 y_start = 5 y_end = 6
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 5 y_end = 5
+sq = 2
+x_end = 20 x_start = 18 y_start = 5 y_end = 7
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 5 y_end = 5
+sq = 3
+x_end = 21 x_start = 18 y_start = 5 y_end = 8
+in if
+x_end = 21 x_start = 18
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 5 y_end = 5
+sq = 4
+x_end = 19 x_start = 19 y_start = 5 y_end = 5
+in if
+post while x_end = 19 x_start = 19 y_start = 5 y_end = 5
+sq = 1
+x_end = 20 x_start = 19 y_start = 5 y_end = 6
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 5 y_end = 5
+sq = 2
+x_end = 21 x_start = 19 y_start = 5 y_end = 7
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 5 y_end = 5
+sq = 3
+x_end = 22 x_start = 19 y_start = 5 y_end = 8
+in if
+x_end = 22 x_start = 19
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 5 y_end = 5
+sq = 4
+x_end = 20 x_start = 20 y_start = 5 y_end = 5
+in if
+post while x_end = 20 x_start = 20 y_start = 5 y_end = 5
+sq = 1
+x_end = 21 x_start = 20 y_start = 5 y_end = 6
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 5 y_end = 5
+sq = 2
+x_end = 22 x_start = 20 y_start = 5 y_end = 7
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 5 y_end = 5
+sq = 3
+x_end = 23 x_start = 20 y_start = 5 y_end = 8
+in if
+x_end = 23 x_start = 20
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 5 y_end = 5
+sq = 4
+x_end = 21 x_start = 21 y_start = 5 y_end = 5
+in if
+post while x_end = 21 x_start = 21 y_start = 5 y_end = 5
+sq = 1
+x_end = 22 x_start = 21 y_start = 5 y_end = 6
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 5 y_end = 5
+sq = 2
+x_end = 23 x_start = 21 y_start = 5 y_end = 7
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 5 y_end = 5
+sq = 3
+x_end = 24 x_start = 21 y_start = 5 y_end = 8
+in if
+x_end = 24 x_start = 21
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 5 y_end = 5
+sq = 4
+x_end = 22 x_start = 22 y_start = 5 y_end = 5
+in if
+post while x_end = 22 x_start = 22 y_start = 5 y_end = 5
+sq = 1
+x_end = 23 x_start = 22 y_start = 5 y_end = 6
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 5 y_end = 5
+sq = 2
+x_end = 24 x_start = 22 y_start = 5 y_end = 7
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 5 y_end = 5
+sq = 3
+x_end = 25 x_start = 22 y_start = 5 y_end = 8
+in if
+x_end = 25 x_start = 22
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 5 y_end = 5
+sq = 4
+x_end = 23 x_start = 23 y_start = 5 y_end = 5
+in if
+post while x_end = 23 x_start = 23 y_start = 5 y_end = 5
+sq = 1
+x_end = 24 x_start = 23 y_start = 5 y_end = 6
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 5 y_end = 5
+sq = 2
+x_end = 25 x_start = 23 y_start = 5 y_end = 7
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 5 y_end = 5
+sq = 3
+x_end = 26 x_start = 23 y_start = 5 y_end = 8
+in if
+x_end = 26 x_start = 23
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 5 y_end = 5
+sq = 4
+x_end = 24 x_start = 24 y_start = 5 y_end = 5
+in if
+post while x_end = 24 x_start = 24 y_start = 5 y_end = 5
+sq = 1
+x_end = 25 x_start = 24 y_start = 5 y_end = 6
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 5 y_end = 5
+sq = 2
+x_end = 26 x_start = 24 y_start = 5 y_end = 7
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 5 y_end = 5
+sq = 3
+x_end = 25 x_start = 25 y_start = 5 y_end = 5
+in if
+post while x_end = 25 x_start = 25 y_start = 5 y_end = 5
+sq = 1
+x_end = 26 x_start = 25 y_start = 5 y_end = 6
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 5 y_end = 5
+sq = 2
+x_end = 26 x_start = 26 y_start = 5 y_end = 5
+in if
+post while x_end = 26 x_start = 26 y_start = 5 y_end = 5
+sq = 1
+x_end = 0 x_start = 0 y_start = 6 y_end = 6
+in if
+post while x_end = 0 x_start = 0 y_start = 6 y_end = 6
+sq = 1
+x_end = 1 x_start = 0 y_start = 6 y_end = 7
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 6 y_end = 6
+sq = 2
+x_end = 2 x_start = 0 y_start = 6 y_end = 8
+x_end = 1 x_start = 1 y_start = 6 y_end = 6
+in if
+post while x_end = 1 x_start = 1 y_start = 6 y_end = 6
+sq = 1
+x_end = 2 x_start = 1 y_start = 6 y_end = 7
+in if
+x_end = 2 x_start = 1
+post while x_end = 1 x_start = 1 y_start = 6 y_end = 6
+sq = 2
+x_end = 3 x_start = 1 y_start = 6 y_end = 8
+in if
+x_end = 3 x_start = 1
+post while x_end = 2 x_start = 1 y_start = 6 y_end = 6
+x_end = 2 x_start = 2 y_start = 6 y_end = 6
+in if
+post while x_end = 2 x_start = 2 y_start = 6 y_end = 6
+sq = 1
+x_end = 3 x_start = 2 y_start = 6 y_end = 7
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 6 y_end = 6
+sq = 2
+x_end = 4 x_start = 2 y_start = 6 y_end = 8
+in if
+x_end = 4 x_start = 2
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 6 y_end = 6
+sq = 3
+x_end = 3 x_start = 3 y_start = 6 y_end = 6
+in if
+post while x_end = 3 x_start = 3 y_start = 6 y_end = 6
+sq = 1
+x_end = 4 x_start = 3 y_start = 6 y_end = 7
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 6 y_end = 6
+sq = 2
+x_end = 5 x_start = 3 y_start = 6 y_end = 8
+in if
+x_end = 5 x_start = 3
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 6 y_end = 6
+sq = 3
+x_end = 4 x_start = 4 y_start = 6 y_end = 6
+in if
+post while x_end = 4 x_start = 4 y_start = 6 y_end = 6
+sq = 1
+x_end = 5 x_start = 4 y_start = 6 y_end = 7
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 6 y_end = 6
+sq = 2
+x_end = 6 x_start = 4 y_start = 6 y_end = 8
+in if
+x_end = 6 x_start = 4
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 6 y_end = 6
+sq = 3
+x_end = 5 x_start = 5 y_start = 6 y_end = 6
+in if
+post while x_end = 5 x_start = 5 y_start = 6 y_end = 6
+sq = 1
+x_end = 6 x_start = 5 y_start = 6 y_end = 7
+x_end = 6 x_start = 6 y_start = 6 y_end = 6
+in if
+post while x_end = 6 x_start = 6 y_start = 6 y_end = 6
+sq = 1
+x_end = 7 x_start = 6 y_start = 6 y_end = 7
+in if
+x_end = 7 x_start = 6
+post while x_end = 6 x_start = 6 y_start = 6 y_end = 6
+sq = 2
+x_end = 8 x_start = 6 y_start = 6 y_end = 8
+in if
+x_end = 8 x_start = 6
+x_end = 7 x_start = 6
+obstcl on y
+post while x_end = 6 x_start = 6 y_start = 6 y_end = 7
+x_end = 7 x_start = 7 y_start = 6 y_end = 6
+in if
+post while x_end = 7 x_start = 7 y_start = 6 y_end = 6
+sq = 1
+x_end = 8 x_start = 7 y_start = 6 y_end = 7
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 6 y_end = 6
+sq = 2
+x_end = 9 x_start = 7 y_start = 6 y_end = 8
+in if
+x_end = 9 x_start = 7
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 6 y_end = 6
+sq = 3
+x_end = 8 x_start = 8 y_start = 6 y_end = 6
+in if
+post while x_end = 8 x_start = 8 y_start = 6 y_end = 6
+sq = 1
+x_end = 9 x_start = 8 y_start = 6 y_end = 7
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 6 y_end = 6
+sq = 2
+x_end = 10 x_start = 8 y_start = 6 y_end = 8
+x_end = 9 x_start = 9 y_start = 6 y_end = 6
+in if
+post while x_end = 9 x_start = 9 y_start = 6 y_end = 6
+sq = 1
+x_end = 10 x_start = 9 y_start = 6 y_end = 7
+in if
+x_end = 10 x_start = 9
+post while x_end = 9 x_start = 9 y_start = 6 y_end = 6
+sq = 2
+x_end = 11 x_start = 9 y_start = 6 y_end = 8
+in if
+x_end = 11 x_start = 9
+post while x_end = 10 x_start = 9 y_start = 6 y_end = 6
+x_end = 10 x_start = 10 y_start = 6 y_end = 6
+in if
+post while x_end = 10 x_start = 10 y_start = 6 y_end = 6
+sq = 1
+x_end = 11 x_start = 10 y_start = 6 y_end = 7
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 6 y_end = 6
+sq = 2
+x_end = 12 x_start = 10 y_start = 6 y_end = 8
+in if
+x_end = 12 x_start = 10
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 6 y_end = 6
+sq = 3
+x_end = 11 x_start = 11 y_start = 6 y_end = 6
+in if
+post while x_end = 11 x_start = 11 y_start = 6 y_end = 6
+sq = 1
+x_end = 12 x_start = 11 y_start = 6 y_end = 7
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 6 y_end = 6
+sq = 2
+x_end = 13 x_start = 11 y_start = 6 y_end = 8
+in if
+x_end = 13 x_start = 11
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 6 y_end = 6
+sq = 3
+x_end = 12 x_start = 12 y_start = 6 y_end = 6
+in if
+post while x_end = 12 x_start = 12 y_start = 6 y_end = 6
+sq = 1
+x_end = 13 x_start = 12 y_start = 6 y_end = 7
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 6 y_end = 6
+sq = 2
+x_end = 14 x_start = 12 y_start = 6 y_end = 8
+in if
+x_end = 14 x_start = 12
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 6 y_end = 6
+sq = 3
+x_end = 13 x_start = 13 y_start = 6 y_end = 6
+in if
+post while x_end = 13 x_start = 13 y_start = 6 y_end = 6
+sq = 1
+x_end = 14 x_start = 13 y_start = 6 y_end = 7
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 6 y_end = 6
+sq = 2
+x_end = 15 x_start = 13 y_start = 6 y_end = 8
+in if
+x_end = 15 x_start = 13
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 6 y_end = 6
+sq = 3
+x_end = 14 x_start = 14 y_start = 6 y_end = 6
+in if
+post while x_end = 14 x_start = 14 y_start = 6 y_end = 6
+sq = 1
+x_end = 15 x_start = 14 y_start = 6 y_end = 7
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 6 y_end = 6
+sq = 2
+x_end = 16 x_start = 14 y_start = 6 y_end = 8
+in if
+x_end = 16 x_start = 14
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 6 y_end = 6
+sq = 3
+x_end = 15 x_start = 15 y_start = 6 y_end = 6
+in if
+post while x_end = 15 x_start = 15 y_start = 6 y_end = 6
+sq = 1
+x_end = 16 x_start = 15 y_start = 6 y_end = 7
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 6 y_end = 6
+sq = 2
+x_end = 17 x_start = 15 y_start = 6 y_end = 8
+in if
+x_end = 17 x_start = 15
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 6 y_end = 6
+sq = 3
+x_end = 16 x_start = 16 y_start = 6 y_end = 6
+in if
+post while x_end = 16 x_start = 16 y_start = 6 y_end = 6
+sq = 1
+x_end = 17 x_start = 16 y_start = 6 y_end = 7
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 6 y_end = 6
+sq = 2
+x_end = 18 x_start = 16 y_start = 6 y_end = 8
+in if
+x_end = 18 x_start = 16
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 6 y_end = 6
+sq = 3
+x_end = 17 x_start = 17 y_start = 6 y_end = 6
+in if
+post while x_end = 17 x_start = 17 y_start = 6 y_end = 6
+sq = 1
+x_end = 18 x_start = 17 y_start = 6 y_end = 7
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 6 y_end = 6
+sq = 2
+x_end = 19 x_start = 17 y_start = 6 y_end = 8
+in if
+x_end = 19 x_start = 17
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 6 y_end = 6
+sq = 3
+x_end = 18 x_start = 18 y_start = 6 y_end = 6
+in if
+post while x_end = 18 x_start = 18 y_start = 6 y_end = 6
+sq = 1
+x_end = 19 x_start = 18 y_start = 6 y_end = 7
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 6 y_end = 6
+sq = 2
+x_end = 20 x_start = 18 y_start = 6 y_end = 8
+in if
+x_end = 20 x_start = 18
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 6 y_end = 6
+sq = 3
+x_end = 19 x_start = 19 y_start = 6 y_end = 6
+in if
+post while x_end = 19 x_start = 19 y_start = 6 y_end = 6
+sq = 1
+x_end = 20 x_start = 19 y_start = 6 y_end = 7
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 6 y_end = 6
+sq = 2
+x_end = 21 x_start = 19 y_start = 6 y_end = 8
+in if
+x_end = 21 x_start = 19
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 6 y_end = 6
+sq = 3
+x_end = 20 x_start = 20 y_start = 6 y_end = 6
+in if
+post while x_end = 20 x_start = 20 y_start = 6 y_end = 6
+sq = 1
+x_end = 21 x_start = 20 y_start = 6 y_end = 7
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 6 y_end = 6
+sq = 2
+x_end = 22 x_start = 20 y_start = 6 y_end = 8
+in if
+x_end = 22 x_start = 20
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 6 y_end = 6
+sq = 3
+x_end = 21 x_start = 21 y_start = 6 y_end = 6
+in if
+post while x_end = 21 x_start = 21 y_start = 6 y_end = 6
+sq = 1
+x_end = 22 x_start = 21 y_start = 6 y_end = 7
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 6 y_end = 6
+sq = 2
+x_end = 23 x_start = 21 y_start = 6 y_end = 8
+in if
+x_end = 23 x_start = 21
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 6 y_end = 6
+sq = 3
+x_end = 22 x_start = 22 y_start = 6 y_end = 6
+in if
+post while x_end = 22 x_start = 22 y_start = 6 y_end = 6
+sq = 1
+x_end = 23 x_start = 22 y_start = 6 y_end = 7
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 6 y_end = 6
+sq = 2
+x_end = 24 x_start = 22 y_start = 6 y_end = 8
+in if
+x_end = 24 x_start = 22
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 6 y_end = 6
+sq = 3
+x_end = 23 x_start = 23 y_start = 6 y_end = 6
+in if
+post while x_end = 23 x_start = 23 y_start = 6 y_end = 6
+sq = 1
+x_end = 24 x_start = 23 y_start = 6 y_end = 7
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 6 y_end = 6
+sq = 2
+x_end = 25 x_start = 23 y_start = 6 y_end = 8
+in if
+x_end = 25 x_start = 23
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 6 y_end = 6
+sq = 3
+x_end = 24 x_start = 24 y_start = 6 y_end = 6
+in if
+post while x_end = 24 x_start = 24 y_start = 6 y_end = 6
+sq = 1
+x_end = 25 x_start = 24 y_start = 6 y_end = 7
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 6 y_end = 6
+sq = 2
+x_end = 26 x_start = 24 y_start = 6 y_end = 8
+in if
+x_end = 26 x_start = 24
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 6 y_end = 6
+sq = 3
+x_end = 25 x_start = 25 y_start = 6 y_end = 6
+in if
+post while x_end = 25 x_start = 25 y_start = 6 y_end = 6
+sq = 1
+x_end = 26 x_start = 25 y_start = 6 y_end = 7
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 6 y_end = 6
+sq = 2
+x_end = 26 x_start = 26 y_start = 6 y_end = 6
+in if
+post while x_end = 26 x_start = 26 y_start = 6 y_end = 6
+sq = 1
+x_end = 0 x_start = 0 y_start = 7 y_end = 7
+in if
+post while x_end = 0 x_start = 0 y_start = 7 y_end = 7
+sq = 1
+x_end = 1 x_start = 0 y_start = 7 y_end = 8
+in if
+x_end = 1 x_start = 0
+post while x_end = 0 x_start = 0 y_start = 7 y_end = 7
+sq = 2
+x_end = 1 x_start = 1 y_start = 7 y_end = 7
+in if
+post while x_end = 1 x_start = 1 y_start = 7 y_end = 7
+sq = 1
+x_end = 2 x_start = 1 y_start = 7 y_end = 8
+x_end = 2 x_start = 2 y_start = 7 y_end = 7
+in if
+post while x_end = 2 x_start = 2 y_start = 7 y_end = 7
+sq = 1
+x_end = 3 x_start = 2 y_start = 7 y_end = 8
+in if
+x_end = 3 x_start = 2
+post while x_end = 2 x_start = 2 y_start = 7 y_end = 7
+sq = 2
+x_end = 3 x_start = 3 y_start = 7 y_end = 7
+in if
+post while x_end = 3 x_start = 3 y_start = 7 y_end = 7
+sq = 1
+x_end = 4 x_start = 3 y_start = 7 y_end = 8
+in if
+x_end = 4 x_start = 3
+post while x_end = 3 x_start = 3 y_start = 7 y_end = 7
+sq = 2
+x_end = 4 x_start = 4 y_start = 7 y_end = 7
+in if
+post while x_end = 4 x_start = 4 y_start = 7 y_end = 7
+sq = 1
+x_end = 5 x_start = 4 y_start = 7 y_end = 8
+in if
+x_end = 5 x_start = 4
+post while x_end = 4 x_start = 4 y_start = 7 y_end = 7
+sq = 2
+x_end = 5 x_start = 5 y_start = 7 y_end = 7
+in if
+post while x_end = 5 x_start = 5 y_start = 7 y_end = 7
+sq = 1
+x_end = 6 x_start = 5 y_start = 7 y_end = 8
+in if
+x_end = 6 x_start = 5
+post while x_end = 5 x_start = 5 y_start = 7 y_end = 7
+sq = 2
+x_end = 6 x_start = 6 y_start = 7 y_end = 7
+x_end = 7 x_start = 7 y_start = 7 y_end = 7
+in if
+post while x_end = 7 x_start = 7 y_start = 7 y_end = 7
+sq = 1
+x_end = 8 x_start = 7 y_start = 7 y_end = 8
+in if
+x_end = 8 x_start = 7
+post while x_end = 7 x_start = 7 y_start = 7 y_end = 7
+sq = 2
+x_end = 8 x_start = 8 y_start = 7 y_end = 7
+in if
+post while x_end = 8 x_start = 8 y_start = 7 y_end = 7
+sq = 1
+x_end = 9 x_start = 8 y_start = 7 y_end = 8
+in if
+x_end = 9 x_start = 8
+post while x_end = 8 x_start = 8 y_start = 7 y_end = 7
+sq = 2
+x_end = 9 x_start = 9 y_start = 7 y_end = 7
+in if
+post while x_end = 9 x_start = 9 y_start = 7 y_end = 7
+sq = 1
+x_end = 10 x_start = 9 y_start = 7 y_end = 8
+x_end = 10 x_start = 10 y_start = 7 y_end = 7
+in if
+post while x_end = 10 x_start = 10 y_start = 7 y_end = 7
+sq = 1
+x_end = 11 x_start = 10 y_start = 7 y_end = 8
+in if
+x_end = 11 x_start = 10
+post while x_end = 10 x_start = 10 y_start = 7 y_end = 7
+sq = 2
+x_end = 11 x_start = 11 y_start = 7 y_end = 7
+in if
+post while x_end = 11 x_start = 11 y_start = 7 y_end = 7
+sq = 1
+x_end = 12 x_start = 11 y_start = 7 y_end = 8
+in if
+x_end = 12 x_start = 11
+post while x_end = 11 x_start = 11 y_start = 7 y_end = 7
+sq = 2
+x_end = 12 x_start = 12 y_start = 7 y_end = 7
+in if
+post while x_end = 12 x_start = 12 y_start = 7 y_end = 7
+sq = 1
+x_end = 13 x_start = 12 y_start = 7 y_end = 8
+in if
+x_end = 13 x_start = 12
+post while x_end = 12 x_start = 12 y_start = 7 y_end = 7
+sq = 2
+x_end = 13 x_start = 13 y_start = 7 y_end = 7
+in if
+post while x_end = 13 x_start = 13 y_start = 7 y_end = 7
+sq = 1
+x_end = 14 x_start = 13 y_start = 7 y_end = 8
+in if
+x_end = 14 x_start = 13
+post while x_end = 13 x_start = 13 y_start = 7 y_end = 7
+sq = 2
+x_end = 14 x_start = 14 y_start = 7 y_end = 7
+in if
+post while x_end = 14 x_start = 14 y_start = 7 y_end = 7
+sq = 1
+x_end = 15 x_start = 14 y_start = 7 y_end = 8
+in if
+x_end = 15 x_start = 14
+post while x_end = 14 x_start = 14 y_start = 7 y_end = 7
+sq = 2
+x_end = 15 x_start = 15 y_start = 7 y_end = 7
+in if
+post while x_end = 15 x_start = 15 y_start = 7 y_end = 7
+sq = 1
+x_end = 16 x_start = 15 y_start = 7 y_end = 8
+in if
+x_end = 16 x_start = 15
+post while x_end = 15 x_start = 15 y_start = 7 y_end = 7
+sq = 2
+x_end = 16 x_start = 16 y_start = 7 y_end = 7
+in if
+post while x_end = 16 x_start = 16 y_start = 7 y_end = 7
+sq = 1
+x_end = 17 x_start = 16 y_start = 7 y_end = 8
+in if
+x_end = 17 x_start = 16
+post while x_end = 16 x_start = 16 y_start = 7 y_end = 7
+sq = 2
+x_end = 17 x_start = 17 y_start = 7 y_end = 7
+in if
+post while x_end = 17 x_start = 17 y_start = 7 y_end = 7
+sq = 1
+x_end = 18 x_start = 17 y_start = 7 y_end = 8
+in if
+x_end = 18 x_start = 17
+post while x_end = 17 x_start = 17 y_start = 7 y_end = 7
+sq = 2
+x_end = 18 x_start = 18 y_start = 7 y_end = 7
+in if
+post while x_end = 18 x_start = 18 y_start = 7 y_end = 7
+sq = 1
+x_end = 19 x_start = 18 y_start = 7 y_end = 8
+in if
+x_end = 19 x_start = 18
+post while x_end = 18 x_start = 18 y_start = 7 y_end = 7
+sq = 2
+x_end = 19 x_start = 19 y_start = 7 y_end = 7
+in if
+post while x_end = 19 x_start = 19 y_start = 7 y_end = 7
+sq = 1
+x_end = 20 x_start = 19 y_start = 7 y_end = 8
+in if
+x_end = 20 x_start = 19
+post while x_end = 19 x_start = 19 y_start = 7 y_end = 7
+sq = 2
+x_end = 20 x_start = 20 y_start = 7 y_end = 7
+in if
+post while x_end = 20 x_start = 20 y_start = 7 y_end = 7
+sq = 1
+x_end = 21 x_start = 20 y_start = 7 y_end = 8
+in if
+x_end = 21 x_start = 20
+post while x_end = 20 x_start = 20 y_start = 7 y_end = 7
+sq = 2
+x_end = 21 x_start = 21 y_start = 7 y_end = 7
+in if
+post while x_end = 21 x_start = 21 y_start = 7 y_end = 7
+sq = 1
+x_end = 22 x_start = 21 y_start = 7 y_end = 8
+in if
+x_end = 22 x_start = 21
+post while x_end = 21 x_start = 21 y_start = 7 y_end = 7
+sq = 2
+x_end = 22 x_start = 22 y_start = 7 y_end = 7
+in if
+post while x_end = 22 x_start = 22 y_start = 7 y_end = 7
+sq = 1
+x_end = 23 x_start = 22 y_start = 7 y_end = 8
+in if
+x_end = 23 x_start = 22
+post while x_end = 22 x_start = 22 y_start = 7 y_end = 7
+sq = 2
+x_end = 23 x_start = 23 y_start = 7 y_end = 7
+in if
+post while x_end = 23 x_start = 23 y_start = 7 y_end = 7
+sq = 1
+x_end = 24 x_start = 23 y_start = 7 y_end = 8
+in if
+x_end = 24 x_start = 23
+post while x_end = 23 x_start = 23 y_start = 7 y_end = 7
+sq = 2
+x_end = 24 x_start = 24 y_start = 7 y_end = 7
+in if
+post while x_end = 24 x_start = 24 y_start = 7 y_end = 7
+sq = 1
+x_end = 25 x_start = 24 y_start = 7 y_end = 8
+in if
+x_end = 25 x_start = 24
+post while x_end = 24 x_start = 24 y_start = 7 y_end = 7
+sq = 2
+x_end = 25 x_start = 25 y_start = 7 y_end = 7
+in if
+post while x_end = 25 x_start = 25 y_start = 7 y_end = 7
+sq = 1
+x_end = 26 x_start = 25 y_start = 7 y_end = 8
+in if
+x_end = 26 x_start = 25
+post while x_end = 25 x_start = 25 y_start = 7 y_end = 7
+sq = 2
+x_end = 26 x_start = 26 y_start = 7 y_end = 7
+in if
+post while x_end = 26 x_start = 26 y_start = 7 y_end = 7
+sq = 1
+x_end = 0 x_start = 0 y_start = 8 y_end = 8
+in if
+post while x_end = 0 x_start = 0 y_start = 8 y_end = 8
+sq = 1
+x_end = 1 x_start = 1 y_start = 8 y_end = 8
+in if
+post while x_end = 1 x_start = 1 y_start = 8 y_end = 8
+sq = 1
+x_end = 2 x_start = 2 y_start = 8 y_end = 8
+x_end = 3 x_start = 3 y_start = 8 y_end = 8
+in if
+post while x_end = 3 x_start = 3 y_start = 8 y_end = 8
+sq = 1
+x_end = 4 x_start = 4 y_start = 8 y_end = 8
+in if
+post while x_end = 4 x_start = 4 y_start = 8 y_end = 8
+sq = 1
+x_end = 5 x_start = 5 y_start = 8 y_end = 8
+in if
+post while x_end = 5 x_start = 5 y_start = 8 y_end = 8
+sq = 1
+x_end = 6 x_start = 6 y_start = 8 y_end = 8
+in if
+post while x_end = 6 x_start = 6 y_start = 8 y_end = 8
+sq = 1
+x_end = 7 x_start = 7 y_start = 8 y_end = 8
+in if
+post while x_end = 7 x_start = 7 y_start = 8 y_end = 8
+sq = 1
+x_end = 8 x_start = 8 y_start = 8 y_end = 8
+in if
+post while x_end = 8 x_start = 8 y_start = 8 y_end = 8
+sq = 1
+x_end = 9 x_start = 9 y_start = 8 y_end = 8
+in if
+post while x_end = 9 x_start = 9 y_start = 8 y_end = 8
+sq = 1
+x_end = 10 x_start = 10 y_start = 8 y_end = 8
+x_end = 11 x_start = 11 y_start = 8 y_end = 8
+in if
+post while x_end = 11 x_start = 11 y_start = 8 y_end = 8
+sq = 1
+x_end = 12 x_start = 12 y_start = 8 y_end = 8
+in if
+post while x_end = 12 x_start = 12 y_start = 8 y_end = 8
+sq = 1
+x_end = 13 x_start = 13 y_start = 8 y_end = 8
+in if
+post while x_end = 13 x_start = 13 y_start = 8 y_end = 8
+sq = 1
+x_end = 14 x_start = 14 y_start = 8 y_end = 8
+in if
+post while x_end = 14 x_start = 14 y_start = 8 y_end = 8
+sq = 1
+x_end = 15 x_start = 15 y_start = 8 y_end = 8
+in if
+post while x_end = 15 x_start = 15 y_start = 8 y_end = 8
+sq = 1
+x_end = 16 x_start = 16 y_start = 8 y_end = 8
+in if
+post while x_end = 16 x_start = 16 y_start = 8 y_end = 8
+sq = 1
+x_end = 17 x_start = 17 y_start = 8 y_end = 8
+in if
+post while x_end = 17 x_start = 17 y_start = 8 y_end = 8
+sq = 1
+x_end = 18 x_start = 18 y_start = 8 y_end = 8
+in if
+post while x_end = 18 x_start = 18 y_start = 8 y_end = 8
+sq = 1
+x_end = 19 x_start = 19 y_start = 8 y_end = 8
+in if
+post while x_end = 19 x_start = 19 y_start = 8 y_end = 8
+sq = 1
+x_end = 20 x_start = 20 y_start = 8 y_end = 8
+in if
+post while x_end = 20 x_start = 20 y_start = 8 y_end = 8
+sq = 1
+x_end = 21 x_start = 21 y_start = 8 y_end = 8
+in if
+post while x_end = 21 x_start = 21 y_start = 8 y_end = 8
+sq = 1
+x_end = 22 x_start = 22 y_start = 8 y_end = 8
+in if
+post while x_end = 22 x_start = 22 y_start = 8 y_end = 8
+sq = 1
+x_end = 23 x_start = 23 y_start = 8 y_end = 8
+in if
+post while x_end = 23 x_start = 23 y_start = 8 y_end = 8
+sq = 1
+x_end = 24 x_start = 24 y_start = 8 y_end = 8
+in if
+post while x_end = 24 x_start = 24 y_start = 8 y_end = 8
+sq = 1
+x_end = 25 x_start = 25 y_start = 8 y_end = 8
+in if
+post while x_end = 25 x_start = 25 y_start = 8 y_end = 8
+sq = 1
+x_end = 26 x_start = 26 y_start = 8 y_end = 8
+in if
+post while x_end = 26 x_start = 26 y_start = 8 y_end = 8
+sq = 1
+bsq = 9 x 9
